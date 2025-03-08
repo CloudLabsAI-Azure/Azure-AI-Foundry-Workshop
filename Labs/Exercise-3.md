@@ -1,8 +1,18 @@
 ## Exercise 3: Chat Completion & Retrieval-Augmented Generation (RAG)
 
+This lab focuses on using chat completions and retrieval-augmented generation (RAG) with the Azure AI Foundry SDK to develop and enhance health and fitness applications.
+
+### Lab Overview
+
+In this lab, you’ll explore various tasks using the Azure AI Foundry SDK to create innovative health and fitness applications. You'll work with advanced AI tools like chat completions, embeddings, and retrieval-augmented generation (RAG) to enhance your projects. These tasks will involve embedding health-themed text and images, interacting with AI models, and utilizing Azure's powerful search and reasoning capabilities.
+
+### Lab Flow
+
 ![](/images/chat1.png)
 
 This lab demonstrates a streamlined workflow for securely interacting with Azure AI models using Azure.Identity for authentication. The process begins with initializing credentials like DefaultAzureCredential to automate secure access and configuring Chat Completions Client via connection strings. We will then construct prompts with system instructions (defining the AI’s behavior) and user input, which are sent to the model. The Large Language Model (LLM) processes the request and returns a structured response, which is extracted and displayed, showcasing the seamless integration of Azure.Identity with AI capabilities to enable enterprise-grade, secure AI interactions.
+
+### Estimated Time: 45 minutes
 
 ### Task 1: Chat Completions using the Azure AI Foundry SDK
 
