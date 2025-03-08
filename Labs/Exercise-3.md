@@ -1,4 +1,4 @@
-## Exercise 3: Chat Completion & Retrieval-Augmented Generation (RAG)
+# Exercise 3: Chat Completion & Retrieval-Augmented Generation (RAG)
 
 This lab focuses on using chat completions and retrieval-augmented generation (RAG) with the Azure AI Foundry SDK to develop and enhance health and fitness applications.
 
