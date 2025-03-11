@@ -88,15 +88,15 @@ This lab demonstrates a streamlined workflow for securely interacting with Azure
    
 1. Navigate to the .env file from the left pane 
 
-  ![](/images/ai13.png)
+   ![](/images/ai13.png)
 
 1. Edit the **Serveless_Model_Name** with **Phi-4**.
 
-  ![](/images/ai14.png)
+   ![](/images/ai14.png)
 
 1. Move back to the **phi-4.ipynb** file and run each cell one by one and observe the output given by the Phi-4 model.  
 
-  ![](/images/ai15.png)
+   ![](/images/ai15.png)
 
 ### Task 5: DeepSeek-R1 Model with Azure AI Inference 
 
