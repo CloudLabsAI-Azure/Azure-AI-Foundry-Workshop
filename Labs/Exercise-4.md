@@ -18,8 +18,6 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
    ![](/images/ai2.png)
 
-1. Let's begin by running the first cell in the notebook which will Load environment variables, create an `AIProjectClient`, and fetch a `ChatCompletionsClient`.
-
 1. Click on the **Execute cell** button. Here, we are loading the environment with the variables from .env file and initializing the client.
 
     ![](../images/ex4-task1-2.png)
@@ -65,6 +63,65 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
     ![](../images/ex4-task1-12.png)
 
 ### Task 2: Health Calculator Agent
+
+1. Click on the **2-code_interpreter.ipynb** link to proceed with the next notebook.
+
+    ![](../images/ex4-task2-1.png)
+
+1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
+
+   ![](/images/ai2.png)
+
+1. Click on the **Execute cell** button. Here, we are loading the environment with the variables from .env file, initializing the client and creating a csv file.
+
+    ![](../images/ex4-task2-2.png)
+
+1. When the cell executes successfully, output will be expected as below. Also, notice a csv file with name **nutrition_data.csv** is created in the left pane.
+
+    ![](../images/ex4-task2-3.png)
+
+1. Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ex4-task2-4.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task2-5.png)
+
+1. Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ex4-task2-6.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task2-7.png)
+
+1. Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ex4-task2-8.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task2-9.png)
+
+1. Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ex4-task2-10.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task2-11.png)
+
+    ![](../images/ex4-task2-12.png)
+
+1. Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ex4-task2-13.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task2-14.png)
+
 
 ### Task 3: Health Resource Search Agent
 
