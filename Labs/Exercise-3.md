@@ -146,7 +146,7 @@ This lab demonstrates a streamlined workflow for securely interacting with Azure
 
 1.  Click on the **Execute cell** button for the next code cell.
 
-   ![](../images/ai19.png)
+    ![](../images/ai19.png)
 
 1. When the cell executes successfully, output will be expected as below.
 
@@ -154,7 +154,7 @@ This lab demonstrates a streamlined workflow for securely interacting with Azure
 
 1.  Click on the **Execute cell** button for the next code cell.
 
-   ![](../images/ai21.png)
+    ![](../images/ai21.png)
 
 1. When the cell executes successfully, output will be expected as below.
 
