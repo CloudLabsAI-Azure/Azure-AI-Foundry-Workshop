@@ -242,4 +242,84 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
 ### Task 5: AI Search + Agent Service: Fitness-Fun Example
 
+1. Click on the **5-agents-aisearch.ipynb** link to proceed with the next notebook.
+
+    ![](../images/ex4-task5-1.png)
+
+1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
+
+    ![](/images/ai2.png)
+
+1. Click on the **Execute cell** button.
+
+    ![](../images/ex4-task5-2.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task5-3.png)
+
+1. Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ex4-task5-4.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task5-5.png)
+
+1. Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ex4-task5-6.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task5-7.png)
+
+1. Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ex4-task5-8.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task5-9.png)
+
+1. Click on the **Execute cell** button for the next code cell. Here, we are loading the environment with the variables from .env file and initializing the client.
+
+    ![](../images/ex4-task5-10.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task5-11.png)
+
+1. Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ex4-task5-12.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task5-13.png)
+
+1. Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ex4-task5-14.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task5-15.png)    
+
+1. Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ex4-task5-16.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task5-17.png)
+
+1. Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ex4-task5-18.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task5-19.png)
+
 ### Task 6: Fitness Fun: Azure Functions + AI Agent
