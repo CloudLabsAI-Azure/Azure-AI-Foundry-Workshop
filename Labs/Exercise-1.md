@@ -120,29 +120,29 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. In the powershell terminal, let us first create the uv environmment by running the following command in the terminal.
 
-   ```csharp
+   ```
      uv venv
     ```
 
 1. Once the uv environment is created, we need to activate it by running the following command.
 
-    ```csharp
+    ```
     .venv\Scripts\activate
     ```
 
 1. Now, lets install the required packages in the isolated environment.The below command installs the  core Azure AI SDKs and Jupyter requirements in the uv environment.
 
-    ```csharp
+    ```
     uv pip install azure-identity azure-ai-projects azure-ai-inference[opentelemetry] azure-search-documents azure-ai-evaluation azure-monitor-opentelemetry
     ```
    
 1. Run the following command to install the required packages for Jupyter 
 
-     ```csharp
+     ```
      uv pip install ipykernel jupyterlab notebook
     ```
 1. Run the following command to register the kernel with Jupyter.
   
-    ```csharp
+    ```
     python -m ipykernel install --user --name=.venv --display-name="Python (.venv)"
     ```
