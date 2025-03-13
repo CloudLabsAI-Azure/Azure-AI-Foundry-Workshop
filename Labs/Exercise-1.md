@@ -6,7 +6,7 @@ This lab focuses on setting up the foundational environment for developing AI ap
 
 In this lab, you will set up the AI Foundry environment configuring a Python-based development environment. You'll deploy essential connections and verify access to models, ensuring smooth execution of AI workflows. By completing this setup, you will be prepared to leverage Azure AI Foundry for building advanced AI solutions.
 
-## Task 1: Environment Setup 
+## Task 1: Environment Setup in the Azure Portal
 
 1. In the Azure portal,search for and select **Bing Resource** to create a grounding with Bing resource.
 
@@ -97,10 +97,41 @@ In this lab, you will set up the AI Foundry environment configuring a Python-bas
 
   ![](/images/b21.png)
 
+
+## Task 1: Environment Setup in Visual Studio Code
+
 1. Minimize your browser window and from the Lab VM select **Visual Studio Code**.
 
   ![](/images/b22.png)
 
-1.   
+1. From the left pane, select **Explorer** (1) and click on **Open Folder** (2)
 
+  ![](/images/b24.png)
 
+1. Navigate to C: Drive and choose **ai-foundry-workshop**(1) and click on **Select Folder** (2).In the prompt that appears select **Yes I trust the authors**.
+
+   ![](/images/b25.png)
+
+1. In the Visual Studio Code window, click on the **elipsis** (3) and choose **Terminal** (2) and click on **New Terminal** (3)
+
+  ![](/images/b23.png)
+
+1. In the powershell terminal, let us first create the uv environmment by running the following command in the terminal.
+
+   uv venv
+
+1. Once the uv environment is created, we need to activate it by running the following command.
+
+  .venv\Scripts\activate
+
+1. Now, lets install the required packages in the isolated environment.The below command installs the  core Azure AI SDKs and Jupyter requirements in the uv environment.
+
+   uv pip install azure-identity azure-ai-projects azure-ai-inference[opentelemetry] azure-search-documents azure-ai-evaluation azure-monitor-opentelemetry
+   
+1. Run the following command to install the required packages for Jupyter 
+
+  uv pip install ipykernel jupyterlab notebook
+
+1. Run the following command to register the kernel with Jupyter.
+
+  python -m ipykernel install --user --name=.venv --display-name="Python (.venv)"
