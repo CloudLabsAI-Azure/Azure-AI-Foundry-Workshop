@@ -16,7 +16,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
 1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
 
-   ![](/images/ai2.png)
+    ![](../images/ai2.png)
 
 1. Click on the **Execute cell** button. Here, we are loading the environment with the variables from .env file and initializing the client.
 
@@ -70,7 +70,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
 1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
 
-   ![](/images/ai2.png)
+    ![](../images/ai2.png)
 
 1. Click on the **Execute cell** button. Here, we are loading the environment with the variables from .env file, initializing the client and creating a csv file.
 
@@ -131,7 +131,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
 1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
 
-    ![](/images/ai2.png)
+     ![](/images/ai2.png)
 
 1. Click on the **Execute cell** button. Here, we are loading the environment with the variables from .env file and initializing the client.
 
