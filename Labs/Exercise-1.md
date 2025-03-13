@@ -97,7 +97,7 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. Leave everything else as default and click on **Add Connection** and once it is added, you can click on close.
 
-  ![](../images/b21.png)
+   ![](../images/b21.png)
 
 
 ## Task 1: Environment Setup in Visual Studio Code
