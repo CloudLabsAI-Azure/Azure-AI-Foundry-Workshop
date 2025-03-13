@@ -27,14 +27,6 @@ In this lab, you will set up the AI Foundry environment configuring a Python-bas
 
      ![](/images/b16.png)
 
-
-
-
-
-
-
-
-
 1. In the Azure portal, search for and select Azure AI Hub Resource.
 
    ![](/images/b1.png)
@@ -83,19 +75,32 @@ In this lab, you will set up the AI Foundry environment configuring a Python-bas
 
    ![](/images/b13.png)
 
+1. Once the required models are deployed,we need to add the connections for the Bing resource and Azure AI Search resource in the Azure AI Foundry portal.Click on **Connected Resources** from the left pane and click on **+ New Connection**.
 
+   ![](/images/b17.png)
 
+1. In the window that appears, select **Azure AI Search Resource**
 
+   ![](/images/b18.png)
 
+1. Click on **Add Connection**by leaving everything else as default and once it is connected you can click on **Close**
 
+   ![](/images/b19.png)
 
+1. Now let us add another connection.Click on **New Connection**.
 
+1. In the window that appears scroll down and select **Grounding with Bing Search** option.
 
+   ![](/images/b20.png)
 
+1. Leave everything else as default and click on **Add Connection** and once it is added, you can click on close.
 
+  ![](/images/b21.png)
 
+1. Minimize your browser window and from the Lab VM select **Visual Studio Code**.
 
+  ![](/images/b22.png)
 
-
+1.   
 
 
