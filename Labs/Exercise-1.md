@@ -104,19 +104,19 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. Minimize your browser window and from the Lab VM select **Visual Studio Code**.
 
-  ![](../images/b22.png)
+   ![](../images/b22.png)
 
 1. From the left pane, select **Explorer** (1) and click on **Open Folder** (2)
 
-  ![](../images/b24.png)
+   ![](../images/b24.png)
 
 1. Navigate to C: Drive and choose **ai-foundry-workshop**(1) and click on **Select Folder** (2).In the prompt that appears select **Yes I trust the authors**.
 
-   ![](../images/b25.png)
+    ![](../images/b25.png)
 
 1. In the Visual Studio Code window, click on the **elipsis** (3) and choose **Terminal** (2) and click on **New Terminal** (3)
 
-  ![](../images/b23.png)
+   ![](../images/b23.png)
 
 1. In the powershell terminal, let us first create the uv environmment by running the following command in the terminal.
 
