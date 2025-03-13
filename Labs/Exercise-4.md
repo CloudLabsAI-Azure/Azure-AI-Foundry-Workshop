@@ -26,7 +26,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task1-3.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are creating a health advisor agent.
 
     ![](../images/ex4-task1-4.png)
 
@@ -34,7 +34,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task1-5.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are creating a thread where user's message and agent's responses are stored.
 
     ![](../images/ex4-task1-6.png)
 
@@ -42,11 +42,11 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task1-7.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are creating messages from the user about typical health questions.
 
     ![](../images/ex4-task1-8.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are asking queries to agent and see the agent's disclaimers and how it handles typical health questions.
 
     ![](../images/ex4-task1-9.png)
 
@@ -54,7 +54,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task1-10.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. We are deleting the agent created for this task.
 
     ![](../images/ex4-task1-11.png)
 
@@ -80,7 +80,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task2-3.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are creating an agent with **Code Interpreter** enabled.
 
     ![](../images/ex4-task2-4.png)
 
@@ -88,7 +88,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task2-5.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are creating a thread for BMI calculations.
 
     ![](../images/ex4-task2-6.png)
 
@@ -96,7 +96,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task2-7.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are creating another thread where the user can ask the agent to analyze the **nutrition_data.csv** we uploaded.
 
     ![](../images/ex4-task2-8.png)
 
@@ -104,17 +104,17 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task2-9.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are getting results by using the threads created in previous steps.
 
     ![](../images/ex4-task2-10.png)
 
-1. When the cell executes successfully, output will be expected as below.
+1. When the cell executes successfully, output will be expected as below. Also, an image is created that have graph along with output results.
 
     ![](../images/ex4-task2-11.png)
 
     ![](../images/ex4-task2-12.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. We are deleting the agent, uploaded file and csv file created for this task.
 
     ![](../images/ex4-task2-13.png)
 
@@ -141,15 +141,15 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task3-3.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are creating some dummy markdown (.md) files, then store them in a vector store for searching.
 
     ![](../images/ex4-task3-4.png)
 
-1. When the cell executes successfully, output will be expected as below.
+1. When the cell executes successfully, output will be expected as below. Also, from the left pane, check that **guidelines.md** and **recipies.md** files. 
 
     ![](../images/ex4-task3-5.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are uploading newly created files and group them into a single vector store for searching.
 
     ![](../images/ex4-task3-6.png)
 
@@ -157,7 +157,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task3-7.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are creating agent with name **health-search-agent**.
 
     ![](../images/ex4-task3-8.png)
 
@@ -165,7 +165,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task3-9.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are creating a conversation thread message which will be given to agent.
 
     ![](../images/ex4-task3-10.png)
 
@@ -173,7 +173,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task3-11.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are getting the output from agent by providing the thread created in previous step.
 
     ![](../images/ex4-task3-12.png)
 
@@ -181,7 +181,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task3-13.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. We are deleting the agent, uploaded file, vector store and local sample files for this task.
 
     ![](../images/ex4-task3-14.png)
 
@@ -201,43 +201,43 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
 1. Click on the **Execute cell** button. Here, we are loading the environment with the variables from .env file and initializing the client.
 
-    ![](../images/ex4-task3-2.png)
+    ![](../images/ex4-task4-2.png)
 
 1. When the cell executes successfully, output will be expected as below.
 
-    ![](../images/ex4-task3-3.png)
+    ![](../images/ex4-task4-3.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Replace the highlighted `BING_CONNECTION_NAME` with `GROUNDING_WITH_BING_CONNECTION_NAME` and click on the **Execute cell** button. Here, we are creating agent with name **health-bing-agent**.
 
-    ![](../images/ex4-task3-4.png)
-
-1. When the cell executes successfully, output will be expected as below.
-
-    ![](../images/ex4-task3-5.png)
-
-1. Click on the **Execute cell** button for the next code cell.
-
-    ![](../images/ex4-task3-6.png)
+    ![](../images/ex4-task4-4.png)
 
 1. When the cell executes successfully, output will be expected as below.
 
-    ![](../images/ex4-task3-7.png)
+    ![](../images/ex4-task4-5.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Replace the highlighted `assistant_id` with `agent_id` and click on the **Execute cell** button. Here, we are creating multiple conversation threads for agent.
 
-    ![](../images/ex4-task3-8.png)
-
-1. When the cell executes successfully, output will be expected as below.
-
-    ![](../images/ex4-task3-9.png)
-
-1. Click on the **Execute cell** button for the next code cell.
-
-    ![](../images/ex4-task3-10.png)
+    ![](../images/ex4-task4-6.png)
 
 1. When the cell executes successfully, output will be expected as below.
 
-    ![](../images/ex4-task3-11.png)
+    ![](../images/ex4-task4-7.png)
+
+1. Click on the **Execute cell** button for the next code cell. Here, we are providing the threads created in previous step to the agent and getting the output. 
+
+    ![](../images/ex4-task4-8.png)
+
+1. When the cell executes successfully, output will be expected as below. Click on **scrollable element** to read full output message.
+
+    ![](../images/ex4-task4-9.png)
+
+1. Click on the **Execute cell** button for the next code cell. We are deleting the agent created for this task.
+
+    ![](../images/ex4-task4-10.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+    ![](../images/ex4-task4-11.png)
 
 
 ### Task 5: AI Search + Agent Service: Fitness-Fun Example
@@ -250,7 +250,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](/images/ai2.png)
 
-1. Click on the **Execute cell** button.
+1. Click on the **Execute cell** button. Here, we are creating Search index client and Search client.
 
     ![](../images/ex4-task5-2.png)
 
@@ -258,7 +258,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task5-3.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are creating search index with name **myfitnessindex**.
 
     ![](../images/ex4-task5-4.png)
 
@@ -266,7 +266,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task5-5.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are adding sample documents to search index created in previous step.
 
     ![](../images/ex4-task5-6.png)
 
@@ -274,7 +274,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task5-7.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are verifying the search index.
 
     ![](../images/ex4-task5-8.png)
 
@@ -290,7 +290,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task5-11.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are finding Azure AI search connection id along with Index endpoint.
 
     ![](../images/ex4-task5-12.png)
 
@@ -298,7 +298,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task5-13.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are creating agent with name **fitness-agent-search**.
 
     ![](../images/ex4-task5-14.png)
 
@@ -306,7 +306,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task5-15.png)    
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. Here, we are creating a thread message and ask the agent to search the index and provide output.
 
     ![](../images/ex4-task5-16.png)
 
@@ -314,7 +314,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task5-17.png)
 
-1. Click on the **Execute cell** button for the next code cell.
+1. Click on the **Execute cell** button for the next code cell. We are deleting the agent created for this task.
 
     ![](../images/ex4-task5-18.png)
 
