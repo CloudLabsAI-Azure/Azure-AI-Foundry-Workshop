@@ -144,7 +144,7 @@ This lab demonstrates a streamlined workflow for securely interacting with Azure
 
    ![](../images/ai18.png)
 
-1.  Click on the **Execute cell** button for the next code cell.
+1.  Click on the **Execute cell** button for the next code cell. Here, we are providing sample query to Deepseek-R1 model and test its capability.
 
     ![](../images/ai19.png)
 
@@ -152,7 +152,7 @@ This lab demonstrates a streamlined workflow for securely interacting with Azure
 
    ![](../images/ai20.png)
 
-1.  Click on the **Execute cell** button for the next code cell.
+1.  Click on the **Execute cell** button for the next code cell. Here, we are providing technical problem to DeepSeek-R1 model and test its capability. 
 
     ![](../images/ai21.png)
 
