@@ -8,7 +8,7 @@ In this lab, you’ll explore various tasks using the Azure AI Foundry SDK to cr
 
 ### Lab Flow
 
-![](/images/chat1.png)
+![](../images/chat1.png)
 
 This lab demonstrates a streamlined workflow for securely interacting with Azure AI models using Azure.Identity for authentication. The process begins with initializing credentials like DefaultAzureCredential to automate secure access and configuring Chat Completions Client via connection strings. We will then construct prompts with system instructions (defining the AI’s behavior) and user input, which are sent to the model. The Large Language Model (LLM) processes the request and returns a structured response, which is extracted and displayed, showcasing the seamless integration of Azure.Identity with AI capabilities to enable enterprise-grade, secure AI interactions.
 
@@ -18,27 +18,27 @@ This lab demonstrates a streamlined workflow for securely interacting with Azure
 
 1. From the left pane in the Visual Studio Code window, click on the dropdown next to **2-notebooks** (1), then click on the dropdown next to **1-chat_completion** (2) and select **basic-chat-completion.ipynb** (3) file.
 
-   ![](/images/ai1.png)
+   ![](../images/ai1.png)
 
 1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
 
-   ![](/images/ai2.png)
+   ![](../images/ai2.png)
 
 1. Let's begin by running the first cell in the notebook which will Load environment variables, create an `AIProjectClient`, and fetch a `ChatCompletionsClient`.
 
 1. Hover over your mouse next to the cell and click on the **Run** option in the cell under **Initial Setup**.
 
-   ![](/images/ai3.png)
+   ![](../images/ai3.png)
 
 1. You should ideally get an output stating that **Successfully Created AI Project Client**.
 
-   ![](/images/ai5.png)
+   ![](../images/ai5.png)
 
 1. Next, in the prompt template run the cell will define a quick **system** message that sets the context as a friendly, disclaimer-providing fitness assistant.
 
 1. Now let's try to get the output for the Chat Completion set-up that we have done. Run the cell under **Try Chat Completions** and observe the output.
 
-   ![](/images/ai6.png)
+   ![](../images/ai6.png)
 
 1. Run the preceding cell and observe the output with placeholders in the system message.
 
@@ -46,7 +46,7 @@ This lab demonstrates a streamlined workflow for securely interacting with Azure
 
 1. Click on the **2-embeddings.ipynb** link to proceed with the next notebook.
 
-   ![](/images/ai7.png)
+   ![](../images/ai7.png)
 
 1. This notebook demonstrates how to use Azure AI Foundry for embedding health-related text and images, generating a health-themed image, and applying prompt templates for enhanced context.
 
@@ -60,43 +60,43 @@ This lab demonstrates a streamlined workflow for securely interacting with Azure
 
    >**Note:** You can view the sample image we are using by navigating to the hand-xray.png file
 
-     ![](/images/ai8.png)
+     ![](../images/ai8.png)
 
 1. We can optionally generate images with the Dall-E-Model in Azure Open AI. You don't have to run this cell, you can view the generated image for a health-related prompt.
 
-   ![](/images/ai9.png)
+   ![](../images/ai9.png)
 
 ### Task 3: Retrieval-Augmented Generation (RAG) with AI Project Client
 
 1. From the left navigation pane in the Visual Studio Code window, select **3-basic-rag.ipynb** file.
 
-   ![](/images/ai10-1.png)
+   ![](../images/ai10-1.png)
 
 1. Our theme is **Health & Fitness** so we’ll create a simple set of health tips, embed them, store them in a search index, then do a query that retrieves relevant tips, and pass them to an LLM to produce a final answer.
 
 1. Run the cells in the notebook one by one and observe the final output where the LLM (Large Language Model) uses relevant retrieved text chunks from your data to craft a final answer from the health_tips report.
 
-   ![](/images/ai11.png)
+   ![](../images/ai11.png)
 
 ### Task 4: Phi-4 Model with AI Project Client 
 
 1. Let's explore the Phi-4 model by clicking on the  link which directs to the Phi-4 notebook.
 
-   ![](/images/ai12.png)
+   ![](../images/ai12.png)
 
 1. Before proceeding with running the cells, we need to edit .env file with the **Phi-4** model.
    
 1. Navigate to the .env file from the left pane 
 
-   ![](/images/ai13.png)
+   ![](../images/ai13.png)
 
 1. Edit the **Serveless_Model_Name** with **Phi-4**.
 
-   ![](/images/ai14.png)
+   ![](../images/ai14.png)
 
 1. Move back to the **phi-4.ipynb** file and run each cell one by one and observe the output given by the Phi-4 model.  
 
-   ![](/images/ai15.png)
+   ![](../images/ai15.png)
 
 ### Task 5: DeepSeek-R1 Model with Azure AI Inference 
 
@@ -124,7 +124,7 @@ This lab demonstrates a streamlined workflow for securely interacting with Azure
 
 1. Navigate to the .env file from the left pane 
 
-   ![](/images/ai13.png)
+   ![](../images/ai13.png)
 
 1. Paste the copied values in .env files with variables defined as shown below.
 
