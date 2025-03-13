@@ -4,7 +4,7 @@ This lab focuses on setting up the foundational environment for developing AI ap
 
 ### Lab Overview
 
-In this lab, you will set up the AI Foundry environment configuring a Python-based development environment. You'll deploy essential connections and verify access to models, ensuring smooth execution of AI workflows. By completing this setup, you will be prepared to leverage Azure AI Foundry for building advanced AI solutions.
+In this lab, you will set up the AI Foundry environment and configuring a Python-based development environment. You'll deploy essential connections and verify access to models, ensuring smooth execution of AI workflows. By completing this setup, you will be prepared to leverage Azure AI Foundry for building advanced AI solutions.
 
 ## Estmated Time: 40 minutes
 
