@@ -12,11 +12,11 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. In the Azure portal,search for and select **Bing Resource** to create a grounding with Bing resource.
 
-   ![](/images/b14.png)
+   ![](../images/b14.png)
 
 1. Click on the drop-down next to **Add** and select **Grounding with Bing Search** resource.
 
-   ![](/images/b15.png)
+   ![](../images/b15.png)
 
 1. In the window that appears, fill in the following details:
 
@@ -27,41 +27,41 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
    - Terms: Check the Box (5)
    - Click on **Review + Create** (5) and click on **Create**
 
-     ![](/images/b16.png)
+     ![](../images/b16.png)
 
 1. In the Azure portal, search for and select Azure AI Hub Resource.
 
-   ![](/images/b1.png)
+   ![](../images/b1.png)
 
 1. Click on the **hub-demo** resource to navigate to the Azure AI Hub.
 
-   ![](/images/b2.png)
+   ![](../images/b2.png)
 
 1. Click on **Launch Azure AI Foundry** option.
 
-   ![](/images/b3.png)
+   ![](../images/b3.png)
 
 1. In the window that appears, select **Agents Projects resource** to move to the Azure AI Foundry project.
 
-   ![](/images/b4.png)
+   ![](../images/b4.png)
 
 1. From the left navigation pane select **Models + Endpoints** option.
 
-   ![](/images/b6.png)
+   ![](../images/b6.png)
 
 1. Select **+ Deploy Model** drop down and select **Deploy a Base Model**
 
-   ![](/images/b7.png)
+   ![](../images/b7.png)
 
 1. Search for and select **DeepSeek R1** model and click on **Confirm**.
 
-   ![](/images/b9.png)
+   ![](../images/b9.png)
 
 1. In the pop-up that apppears, click on **Agree and Proceed**
 
 1. In the deploy model window, click on **Deploy** to deploy the model.
 
-   ![](/images/b10.png)
+   ![](../images/b10.png)
 
 1. Once the model is deployed click on **Models+Endpoints** from the left navigation pane to deploy **Phi-4 model.**
 
@@ -69,54 +69,54 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. Search for and select **Phi-4** model and click on **Confirm**.
 
-   ![](/images/b12.png)
+   ![](../images/b12.png)
 
 1. In the pop-up that apppears, click on **Agree and Proceed**.
 
 1. In the deploy model window, click on **Deploy** to deploy the model.
 
-   ![](/images/b13.png)
+   ![](../images/b13.png)
 
 1. Once the required models are deployed,we need to add the connections for the Bing resource and Azure AI Search resource in the Azure AI Foundry portal.Click on **Connected Resources** from the left pane and click on **+ New Connection**.
 
-   ![](/images/b17.png)
+   ![](../images/b17.png)
 
 1. In the window that appears, select **Azure AI Search Resource**
 
-   ![](/images/b18.png)
+   ![](../images/b18.png)
 
 1. Click on **Add Connection**by leaving everything else as default and once it is connected you can click on **Close**
 
-   ![](/images/b19.png)
+   ![](../images/b19.png)
 
 1. Now let us add another connection.Click on **New Connection**.
 
 1. In the window that appears scroll down and select **Grounding with Bing Search** option.
 
-   ![](/images/b20.png)
+   ![](../images/b20.png)
 
 1. Leave everything else as default and click on **Add Connection** and once it is added, you can click on close.
 
-  ![](/images/b21.png)
+  ![](../images/b21.png)
 
 
 ## Task 1: Environment Setup in Visual Studio Code
 
 1. Minimize your browser window and from the Lab VM select **Visual Studio Code**.
 
-  ![](/images/b22.png)
+  ![](../images/b22.png)
 
 1. From the left pane, select **Explorer** (1) and click on **Open Folder** (2)
 
-  ![](/images/b24.png)
+  ![](../images/b24.png)
 
 1. Navigate to C: Drive and choose **ai-foundry-workshop**(1) and click on **Select Folder** (2).In the prompt that appears select **Yes I trust the authors**.
 
-   ![](/images/b25.png)
+   ![](../images/b25.png)
 
 1. In the Visual Studio Code window, click on the **elipsis** (3) and choose **Terminal** (2) and click on **New Terminal** (3)
 
-  ![](/images/b23.png)
+  ![](../images/b23.png)
 
 1. In the powershell terminal, let us first create the uv environmment by running the following command in the terminal.
 
