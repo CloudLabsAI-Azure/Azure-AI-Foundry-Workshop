@@ -6,6 +6,8 @@ This lab focuses on setting up the foundational environment for developing AI ap
 
 In this lab, you will set up the AI Foundry environment configuring a Python-based development environment. You'll deploy essential connections and verify access to models, ensuring smooth execution of AI workflows. By completing this setup, you will be prepared to leverage Azure AI Foundry for building advanced AI solutions.
 
+## Estmated Time: 40 minutes
+
 ## Task 1: Environment Setup in the Azure Portal
 
 1. In the Azure portal,search for and select **Bing Resource** to create a grounding with Bing resource.
@@ -118,20 +120,29 @@ In this lab, you will set up the AI Foundry environment configuring a Python-bas
 
 1. In the powershell terminal, let us first create the uv environmment by running the following command in the terminal.
 
-   uv venv
+   ```csharp
+     uv venv
+    ```
 
 1. Once the uv environment is created, we need to activate it by running the following command.
 
-  .venv\Scripts\activate
+    ```csharp
+    .venv\Scripts\activate
+    ```
 
 1. Now, lets install the required packages in the isolated environment.The below command installs the  core Azure AI SDKs and Jupyter requirements in the uv environment.
 
-   uv pip install azure-identity azure-ai-projects azure-ai-inference[opentelemetry] azure-search-documents azure-ai-evaluation azure-monitor-opentelemetry
+    ```csharp
+    uv pip install azure-identity azure-ai-projects azure-ai-inference[opentelemetry] azure-search-documents azure-ai-evaluation azure-monitor-opentelemetry
+    ```
    
 1. Run the following command to install the required packages for Jupyter 
 
-  uv pip install ipykernel jupyterlab notebook
-
+     ```csharp
+     uv pip install ipykernel jupyterlab notebook
+    ```
 1. Run the following command to register the kernel with Jupyter.
-
-  python -m ipykernel install --user --name=.venv --display-name="Python (.venv)"
+  
+    ```csharp
+    python -m ipykernel install --user --name=.venv --display-name="Python (.venv)"
+    ```
