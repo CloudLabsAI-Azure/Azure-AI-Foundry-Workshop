@@ -26,7 +26,7 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
 
     ![](../images/step-4.png)
 
-1. Select **.evenv (Python 3.12.1)** which will be used as kernel for this workbook.
+1. Select **.venv (Python 3.12.1)** which will be used as kernel for this workbook.
 
     ![](../images/step-5.png)
 
@@ -89,7 +89,7 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
 
     ![](../images/step-17.png)
 
-1. Select **.evenv (Python 3.12.1)** which will be used as kernel for this workbook.
+1. Select **.venv (Python 3.12.1)** which will be used as kernel for this workbook.
 
     ![](../images/step-18.png)
 
@@ -153,7 +153,7 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
 
     ![](../images/step-33.png)
 
-1. Select **.evenv (Python 3.12.1)** which will be used as kernel for this workbook.
+1. Select **.venv (Python 3.12.1)** which will be used as kernel for this workbook.
 
     ![](../images/step-34.png)
 
@@ -182,4 +182,8 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
 
     ![](../images/step-40.png)
 
-1. When the cell executes successfully, output will be expected as below.
+1. When the cell executes successfully, output will be expected as below. There will be an image saved in the same directory.
+
+    ![](../images/step-41.png)
+
+    ![](../images/step-42.png)

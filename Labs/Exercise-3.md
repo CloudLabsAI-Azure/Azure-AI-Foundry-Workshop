@@ -20,7 +20,7 @@ This lab demonstrates a streamlined workflow for securely interacting with Azure
 
    ![](/images/ai1.png)
 
-1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel** option and choose **.venv(Python 3.12.1)** (1) and select the same in the option that appears under the search bar(2).
+1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
 
    ![](/images/ai2.png)
 
@@ -68,9 +68,9 @@ This lab demonstrates a streamlined workflow for securely interacting with Azure
 
 ### Task 3: Retrieval-Augmented Generation (RAG) with AI Project Client
 
-1. From the left navigation pane in the Visual Studio Code window, select **basic-rag.ipynb** file.
+1. From the left navigation pane in the Visual Studio Code window, select **3-basic-rag.ipynb** file.
 
-   ![](/images/ai10.png)
+   ![](/images/ai10-1.png)
 
 1. Our theme is **Health & Fitness** so we’ll create a simple set of health tips, embed them, store them in a search index, then do a query that retrieves relevant tips, and pass them to an LLM to produce a final answer.
 
@@ -100,10 +100,63 @@ This lab demonstrates a streamlined workflow for securely interacting with Azure
 
 ### Task 5: DeepSeek-R1 Model with Azure AI Inference 
 
+1. From the left navigation pane in the Visual Studio Code window, select **5-deep-seek-r1.ipynb** file.
 
-
-
+   ![](../images/ai16.png)
   
+1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
 
+   ![](/images/ai2.png)
 
-   
+1. Before proceeding with running the cells, we need to edit .env file with the DeepSeek-R1 model configurations.
+
+1. Navigate to **Azure portal**, open the resource group where **Azure AI services** are deployed and select the **Azure AI project** which is used for this exercise.
+
+   ![](../images/ai17-2.png)
+
+1. Click on **Launch studio**.
+
+   ![](../images/ai17-3.png)
+
+1. In the overview page of Azure AI foundry portal, copy **API key (1)** and **Azure AI model interference endpoint (2)**.
+
+   ![](../images/ai17-4.png)
+
+1. Navigate to the .env file from the left pane 
+
+   ![](/images/ai13.png)
+
+1. Paste the copied values in .env files with variables defined as shown below.
+
+   ```
+   Azure_INFERENCE_ENDPOINT=<ENTER-COPIED-INFERENCE-ENDPOINT>
+   AZURE_INFERENCE_KEY=<ENTER-COPIED-INFERENCE-KEY>
+   MODEL_NAME=DeepSeek-R1
+   ```
+
+   ![](../images/ai17-1.png)
+
+1. Click on the **Execute cell** button. Here, we are loading the environment with the variables defined in previous step and initializing the client.
+
+   ![](../images/ai17.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+   ![](../images/ai18.png)
+
+1.  Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ai19.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+   ![](../images/ai20.png)
+
+1.  Click on the **Execute cell** button for the next code cell.
+
+    ![](../images/ai21.png)
+
+1. When the cell executes successfully, output will be expected as below.
+
+   ![](../images/ai22.png)
+
