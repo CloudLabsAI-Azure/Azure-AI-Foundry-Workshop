@@ -106,7 +106,7 @@ This lab demonstrates a streamlined workflow for securely interacting with Azure
   
 1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
 
-   ![](/images/ai2.png)
+   ![](../images/ai2.png)
 
 1. Before proceeding with running the cells, we need to edit .env file with the DeepSeek-R1 model configurations.
 
