@@ -146,3 +146,8 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
     ```
     python -m ipykernel install --user --name=.venv --display-name="Python (.venv)"
     ```
+1. Run the following command to install the required packages.
+
+   ```
+   uv pip install -r requirements.txt
+    ```
