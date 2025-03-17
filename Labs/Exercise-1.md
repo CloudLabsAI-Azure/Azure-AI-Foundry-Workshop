@@ -99,8 +99,15 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
    ![](../images/b21.png)
 
+1. Once the connections are added, we need to add the user with developer permission. Click on **Users (1)** from the left pane and click on **+ New User (2)**.
 
-## Task 1: Environment Setup in Visual Studio Code
+   ![](../images/ex1-select-users.png)
+
+1. Provide your **Username (1)** in place of New user and select the Role as **Azure AI Developer (2)**. Click on **Add (3)**.
+
+   ![](../images/ex1-add-dev-role.png)
+
+## Task 2: Environment Setup in Visual Studio Code
 
 1. Minimize your browser window and from the Lab VM select **Visual Studio Code**.
 
