@@ -25,11 +25,11 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
    - Name: **Bing-Search** (3)
    - Pricing Tier: **Grounding with Bing Search** (4)
    - Terms: Check the Box (5)
-   - Click on **Review + Create** (5) and click on **Create**
+   - Click on **Review + Create** (6) and click on **Create**
 
      ![](../images/b16.png)
 
-1. In the Azure portal, search for and select Azure AI Hub Resource.
+1. In the Azure portal, search for **azure foundry (1)** and select **Azure AI Foundry (2)**.
 
    ![](../images/b1.png)
 
@@ -53,11 +53,11 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
    ![](../images/b7.png)
 
-1. Search for and select **DeepSeek R1** model and click on **Confirm**.
+1. Search for and select **DeepSeek-R1 (1)** model and click on **Confirm (2)**.
 
    ![](../images/b9.png)
 
-1. In the pop-up that apppears, click on **Agree and Proceed**
+1. In the pop-up that appears, click on **Agree and Proceed**.
 
 1. In the deploy model window, click on **Deploy** to deploy the model.
 
@@ -67,25 +67,25 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. Select **+ Deploy Model** drop down and select **Deploy a Base Model**.
 
-1. Search for and select **Phi-4** model and click on **Confirm**.
+1. Search for and select **Phi-4 (1)** model and click on **Confirm (2)**.
 
    ![](../images/b12.png)
 
-1. In the pop-up that apppears, click on **Agree and Proceed**.
+1. In the pop-up that appears, click on **Agree and Proceed**.
 
 1. In the deploy model window, click on **Deploy** to deploy the model.
 
    ![](../images/b13.png)
 
-1. Once the required models are deployed,we need to add the connections for the Bing resource and Azure AI Search resource in the Azure AI Foundry portal.Click on **Connected Resources** from the left pane and click on **+ New Connection**.
+1. Once the required models are deployed, we need to add the connections for the Bing resource and Azure AI Search resource in the Azure AI Foundry portal. Click on **Connected Resources (1)** from the left pane and click on **+ New Connection (2)**.
 
    ![](../images/b17.png)
 
-1. In the window that appears, select **Azure AI Search Resource**
+1. In the window that appears, select **Azure AI Search** resource.
 
    ![](../images/b18.png)
 
-1. Click on **Add Connection**by leaving everything else as default and once it is connected you can click on **Close**
+1. Click on **Add Connection** by leaving everything else as default and once it is connected, you can click on **Close**.
 
    ![](../images/b19.png)
 
@@ -99,8 +99,15 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
    ![](../images/b21.png)
 
+1. Once the connections are added, we need to add the user with developer permission. Click on **Users (1)** from the left pane and click on **+ New User (2)**.
 
-## Task 1: Environment Setup in Visual Studio Code
+   ![](../images/ex1-select-users.png)
+
+1. Provide your **Username (1)** in place of New user and select the Role as **Azure AI Developer (2)**. Click on **Add (3)**.
+
+   ![](../images/ex1-add-dev-role.png)
+
+## Task 2: Environment Setup in Visual Studio Code
 
 1. Minimize your browser window and from the Lab VM select **Visual Studio Code**.
 
@@ -110,7 +117,7 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
    ![](../images/b24.png)
 
-1. Navigate to C: Drive and choose **ai-foundry-workshop**(1) and click on **Select Folder** (2).In the prompt that appears select **Yes I trust the authors**.
+1. Navigate to C: Drive and choose **ai-foundry-workshop**(1) and click on **Select Folder** (2). In the prompt that appears, select **Yes I trust the authors**.
 
     ![](../images/b25.png)
 

@@ -10,7 +10,7 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
 
 ### Task 1: Authenticate your Credentials 
 
-1. Open the Visual Studio Code and open folder with the path `C:/Lab files`. When the folder is opened, in the left **explorer** panel, click on the dropdown next to **1-introduction (1)** and select **1-authentication.ipynb (2)** file.
+1. Open the Visual Studio Code and open folder with the path `C:/ai-foundry-workshop`. When the folder is opened, in the left **explorer** panel, click on the dropdown next to **1-introduction (1)** and select **1-authentication.ipynb (2)** file.
 
     ![](../images/step-1.png)
 
