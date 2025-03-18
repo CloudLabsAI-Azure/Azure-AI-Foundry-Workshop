@@ -131,7 +131,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
 1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
 
-     ![](/images/ai2.png)
+     ![](../images/ai2.png)
 
 1. Click on the **Execute cell** button. Here, we are loading the environment with the variables from .env file and initializing the client.
 
@@ -191,13 +191,13 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
 ### Task 4: Health & Fitness Agent with Bing Grounding
 
-1. Click on the **3-file-search.ipynb** link to proceed with the next notebook.
+1. Click on the **4-bing_grounding.ipynb** link to proceed with the next notebook.
 
     ![](../images/ex4-task4-1.png)
 
 1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
 
-    ![](/images/ai2.png)
+    ![](../images/ai2.png)
 
 1. Click on the **Execute cell** button. Here, we are loading the environment with the variables from .env file and initializing the client.
 
@@ -248,7 +248,7 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
 1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
 
-    ![](/images/ai2.png)
+    ![](../images/ai2.png)
 
 1. Click on the **Execute cell** button. Here, we are creating Search index client and Search client.
 
