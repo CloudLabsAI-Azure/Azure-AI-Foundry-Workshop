@@ -125,7 +125,8 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
 
     ![](../images/step-26.png)
     > Note: To verify the complete output block, scroll down at the end of output and click on ***scrollable element***.
-        ![](../images/step-27.png)
+        
+     ![](../images/step-27.png)
 
 1. Click on the **Execute cell** button for the next code cell. Here, we are validating connections for **Azure AI search** and **Azure Open AI**.
 
