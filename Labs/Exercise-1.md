@@ -156,5 +156,5 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 1. Run the following command to install the required packages.
 
    ```
-   uv pip install -r requirements.txt
+   uv pip install -r requirements.txt --prerelease=allow
     ```
