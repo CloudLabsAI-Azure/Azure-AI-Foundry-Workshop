@@ -41,15 +41,6 @@ Participants should have:
 - **AI Model & Data Processing Skills:** Understanding of chat completions, embedding models, retrieval-augmented generation (RAG), multimodal reasoning, and prompt engineering.  
 - **Multi-Agent AI & Automation Concepts:** Awareness of AI agent architectures, event-driven workflows, AI observability, and governance to manage intelligent AI applications effectively.  
 
-
-## Architecture Diagram
-
-
- 
-### Explanation of Components
-
-
-
 # Getting Started with the lab
  
 Welcome to your Azure AI agents lab, Let's begin by making the most of this experience:
