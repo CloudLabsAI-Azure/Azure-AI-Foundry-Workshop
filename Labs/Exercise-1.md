@@ -10,25 +10,6 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 ## Task 1: Environment Setup in the Azure Portal
 
-1. In the Azure portal,search for and select **Bing Resource** to create a grounding with Bing resource.
-
-   ![](../images/b14.png)
-
-1. Click on the drop-down next to **Add** and select **Grounding with Bing Search** resource.
-
-   ![](../images/b15.png)
-
-1. In the window that appears, fill in the following details:
-
-   - Subscription- Choose the default Subscription.(1)
-   - Resource Group- Choose **foundry** (2)
-   - Name: **Bing-Search** (3)
-   - Pricing Tier: **Grounding with Bing Search** (4)
-   - Terms: Check the Box (5)
-   - Click on **Review + Create** (6) and click on **Create**
-
-     ![](../images/b16.png)
-
 1. In the Azure portal, search for **azure foundry (1)** and select **Azure AI Foundry (2)**.
 
    ![](../images/b1.png)
