@@ -100,7 +100,7 @@ In this lab, you will set up an AI agent-driven application that reacts to real-
 1. Run the following command to start the backend server.
 
    ```
-   uvicorn main:app --reload --port 8000
+   uvicorn main:app --reload --port 8003
     ```
 
 1. This completes the Backend setup. Now let's move on to Frontend setup. Click on the **elipsis** (1) and choose **Terminal** (2) and click on **New Terminal** (3).
