@@ -10,17 +10,13 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
 
 ### Task 1: Authenticate your Credentials 
 
-1. Open the Visual Studio Code and open folder with the path `C:/ai-foundry-workshop`. When the folder is opened, in the left **explorer** panel, click on the dropdown next to **1-introduction (1)** and select **1-authentication.ipynb (2)** file.
+1. In the Visual Studio code window, in the left **explorer** panel, click on the dropdown next to **1-introduction (1)** and select **1-authentication.ipynb (2)** file.
 
     ![](../images/step-1.png)
 
 1. In the top right corner of the Visual Studio Code Window, select the dropdown under **Select Kernel** option.
 
     ![](../images/step-15.png)
-
-1. Under the search bar, click on **Select Another Kernel**.
-
-    ![](../images/step-3.png)
 
 1. Select **Python Environments..**.
 
@@ -46,7 +42,6 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
 
     ![](../images/step-9.png)
 
-
 1. If you have not logged-in to the provided email, select **Work or school account** and use the below credientials to login.
         
     Username:<inject key="AzureAdUserEmail"></inject>
@@ -59,11 +54,7 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
 
     ![](../images/step-10.png)
 
-1. In the next code cell, replace the highlighted `DefaultAzureCredential` with `AzureCliCredential` . Here, we are testing the authentication by acquiring a token. 
-
-    ![](../images/step-11.png)
-
-1. Click on the **Execute cell** button for the updated code cell.
+1. In the next code cell, we are testing the authentication by acquiring a token. Click on the **Execute cell** button.
 
     ![](../images/step-12.png)
 
@@ -81,14 +72,6 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
 
     ![](../images/step-15.png)
 
-1. Under the search bar, click on **Select Another Kernel**.
-
-    ![](../images/step-16.png)
-
-1. Select **Python Environments..**.
-
-    ![](../images/step-17.png)
-
 1. Select **.venv (Python 3.12.1)** which will be used as kernel for this workbook.
 
     ![](../images/step-18.png)
@@ -101,7 +84,7 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
 
     ![](../images/step-20.png)
 
-1. Click on the **Execute cell** button for the next code cell. Here, we are verifying the Azure credentials and setup.
+1. Scroll down and click on the **Execute cell** button for the next code cell. Here, we are verifying the Azure credentials and setup.
 
     ![](../images/step-21.png)
 
@@ -145,14 +128,6 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
 1. In the top right corner of the Visual Studio Code Window, select the dropdown under **Select Kernel** option.
 
     ![](../images/step-31.png)
-
-1. Under the search bar, click on **Select Another Kernel**.
-
-    ![](../images/step-32.png)
-
-1. Select **Python Environments..**.
-
-    ![](../images/step-33.png)
 
 1. Select **.venv (Python 3.12.1)** which will be used as kernel for this workbook.
 
