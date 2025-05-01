@@ -40,9 +40,9 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. In the pop-up that appears, click on **Agree and Proceed**.
 
-1. In the deploy model window, click on **Deploy** to deploy the model.
+1. In the deploy model window, click on **Connect and Deploy** to deploy the model.
 
-   ![](../images/b10.png)
+   ![](../images/ond1.png)
 
 1. Once the model is deployed click on **Models+Endpoints** from the left navigation pane to deploy **Phi-4 model.**
 
@@ -84,7 +84,7 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
    ![](../images/ex1-select-users.png)
 
-1. Provide your **Username (1)** in place of New user and select the Role as **Azure AI Developer (2)**. Click on **Add (3)**.
+1. Provide your Username: **<inject key="AzureAdUserEmail"></inject>** in place of New user and select the Role as **Azure AI Developer (2)**. Click on **Add (3)**.
 
    ![](../images/ex1-add-dev-role.png)
 
@@ -139,3 +139,29 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
    ```
    uv pip install -r requirements.txt --prerelease=allow
     ```
+
+## Task 3: Update Environment Variables
+
+1. From the VM's desktop, open the **Azure Creds** file.
+
+   ![](../images/ond3.png)
+
+1. From the Azure Creds file, copy the Azure Tenant ID as we will be using it in the next step
+
+   ![](../images/ond4.png)
+
+1. From the left navigation pane in the Visual Studio Code window, click on the .env file.
+
+   ![](../images/ond2.png)
+
+1. In the .env file, enter the following details:
+
+  - PROJECT_CONNECTION_STRING=**<inject key="ProjecT_CONNECTION_STRING"></inject>**
+  - TENANT_ID= *The Tenant ID you copied in the previous step*
+  - SERVERLESS_MODEL_NAME=
+
+1. Once you have entered the required details, click on **Ctrl+S** to save the file and it will look like as shown below
+
+   ![](../images/ond5.png)
+
+
