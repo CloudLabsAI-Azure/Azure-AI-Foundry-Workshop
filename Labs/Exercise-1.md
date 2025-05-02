@@ -164,4 +164,4 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
    ![](../images/dnd2.png)
 
-1. Once you have updated the .env file variables. kindly close and reopen the Visual Studio Code.
+1. Once you have updated the .env file variables, kindly close and reopen the Visual Studio Code.
