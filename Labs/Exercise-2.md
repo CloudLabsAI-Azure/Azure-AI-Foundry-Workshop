@@ -32,7 +32,7 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
 
 1. When the cell executes successfully, output will be expected as below.
 
-    ![](../images/step-7.png)
+    ![](../images/dnd1.png)
 
 1. Click on the **Execute cell** button for the next code cell. Here, the commands will redirect you to login to Azure portal by sign-in with Windows login.
 
