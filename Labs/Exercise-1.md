@@ -140,7 +140,7 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
    uv pip install -r requirements.txt --prerelease=allow
     ```
 
-## Task 3: Update Environment Variables
+## Task 3: Update the Environment Variables
 
 1. From the VM's desktop, open the **Azure Creds** file.
 
@@ -164,4 +164,4 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
    ![](../images/ond5.png)
 
-
+1. Once you have updated the .env file variables. kindly close and reopen the Visual Studio Code.
