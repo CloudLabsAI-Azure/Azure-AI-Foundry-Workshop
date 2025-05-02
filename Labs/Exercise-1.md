@@ -144,11 +144,11 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. From the VM's desktop, open the **Azure Creds** file.
 
-   ![](../images/ond3.png)
+   ![](../images/dnd4.png)
 
 1. From the Azure Creds file, copy the Azure Tenant ID as we will be using it in the next step
 
-   ![](../images/ond4.png)
+   ![](../images/dnd3.png)
 
 1. From the left navigation pane in the Visual Studio Code window, click on the .env file.
 
@@ -162,6 +162,6 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. Once you have entered the required details, click on **Ctrl+S** to save the file and it will look like as shown below
 
-   ![](../images/ond5.png)
+   ![](../images/dnd2.png)
 
 1. Once you have updated the .env file variables. kindly close and reopen the Visual Studio Code.
