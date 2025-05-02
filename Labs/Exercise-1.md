@@ -156,9 +156,9 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. In the .env file, enter the following details:
 
-  - PROJECT_CONNECTION_STRING=**<inject key="ProjecT_CONNECTION_STRING"></inject>**
-  - TENANT_ID= *The Tenant ID you copied in the previous step*
-  - SERVERLESS_MODEL_NAME=
+   - PROJECT_CONNECTION_STRING=**<inject key="ProjecT_CONNECTION_STRING"></inject>**
+   - TENANT_ID= *The Tenant ID you copied in the previous step*
+   - SERVERLESS_MODEL_NAME=
 
 1. Once you have entered the required details, click on **Ctrl+S** to save the file and it will look like as shown below
 
