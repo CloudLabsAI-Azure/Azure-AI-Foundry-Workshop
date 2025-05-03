@@ -10,6 +10,21 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 ## Task 1: Environment Setup in the Azure Portal
 
+1. In the Azure portal, search for and select Azure AI Search Resource.
+
+   ![](../images/ai11x.png)
+
+1. Click on **Create** in the window appears.
+
+1. Enter the following details:
+
+   - Resource Group- Select **Foundry** (1)
+   - Name: Enter **aisearch<inject key="Deployment ID	"></inject>** (2)
+   - Region: Select **East US** (3)
+   - Click on **Review+Create** (4) and click on **Create**
+
+    ![](../images/ai13x.png)
+
 1. In the Azure portal, search for **azure foundry (1)** and select **Azure AI Foundry (2)**.
 
    ![](../images/b1.png)
@@ -92,6 +107,10 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 1. In the deploy model window, click on **Deploy** to deploy the model.
 
    ![](../images/b13.png)
+
+1. From the left navigation pane, click on **Management Center**
+
+   ![](../images/ai10x.png)
 
 1. Once the required models are deployed, we need to add the connections for the Bing resource and Azure AI Search resource in the Azure AI Foundry portal. Click on **Connected Resources (1)** from the left pane and click on **+ New Connection (2)**.
 
