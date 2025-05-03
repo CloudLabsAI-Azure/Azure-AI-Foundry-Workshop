@@ -16,6 +16,8 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. Click on **Create** in the window appears.
 
+   ![](../images/ai12x.png)
+
 1. Enter the following details:
 
    - Resource Group- Select **Foundry** (1)
