@@ -43,7 +43,7 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. In the window that appears, copy the Project Connection String to a notepad file as you will need it in the further steps.
 
-  ![](../images/ai6x.png)
+   ![](../images/ai6x.png)
 
 1. From the left navigation pane select **Models + Endpoints** option.
 
@@ -71,7 +71,7 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. Click on **Models and Endpoints** and click on **Deploy a model** and select **Deploy a Base Model**. Now, search for and select **DeepSeek-R1 (1)** model and click on **Confirm (2)**.
 
-   ![](../images/ai7x.png)
+   ![](../images/b9.png)
 
 1. In the pop-up that appears, click on **Agree and Proceed**.
 
