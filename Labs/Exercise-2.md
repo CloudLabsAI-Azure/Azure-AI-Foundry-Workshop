@@ -163,3 +163,5 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
     ![](../images/step-41.png)
 
     ![](../images/step-42.png)
+
+    >**Note:** The pictorial representation might vary.
