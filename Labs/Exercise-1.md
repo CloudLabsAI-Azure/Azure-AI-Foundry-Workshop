@@ -36,6 +36,7 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
    ![](../images/ai1x.png)
 
 1. Provide the following details in the AI Hub window and leave everything else as default.
+
    - Resource Group: Select **Foundry** from the dropdown (1)
    - Name: **Ai-Hub<inject key="Deployment ID	"></inject>**(2)
    - Click **Review+Create**(3) followed by **Create**
@@ -136,6 +137,9 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
    ![](../images/b21.png)
 
+1. From the connections window copy the 
+
+
 1. Once the connections are added, we need to add the user with developer permission. Click on **Users (1)** from the left pane and click on **+ New User (2)**.
 
    ![](../images/ex1-select-users.png)
@@ -162,7 +166,7 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
    ![](../images/b23.png)
 
-1. In the powershell terminal, let us first create the uv environmment by running the following command in the terminal.
+1. In the powershell terminal, let us first create the uv environnment by running the following command in the terminal.
 
    ```
      uv venv
