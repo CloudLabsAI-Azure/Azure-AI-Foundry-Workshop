@@ -137,8 +137,9 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
    ![](../images/b21.png)
 
-1. From the connections window copy the 
+1. From the connections window, copy the Azure OpenAI Service connection name and paste it in a notepad file as you will need it in the upcoming steps.
 
+   ![](../images/ai14x.png)
 
 1. Once the connections are added, we need to add the user with developer permission. Click on **Users (1)** from the left pane and click on **+ New User (2)**.
 
@@ -216,9 +217,9 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 1. In the .env file, enter the following details:
 
-   - PROJECT_CONNECTION_STRING=**<inject key="ProjecT_CONNECTION_STRING"></inject>**
+   - PROJECT_CONNECTION_STRING= *Project Connection String you copied in the previous task* 
    - TENANT_ID= *The Tenant ID you copied in the previous step*
-   - SERVERLESS_MODEL_NAME=
+   - SERVERLESS_MODEL_NAME= *Open AI Service Connection copied in the previous step*
 
 1. Once you have entered the required details, click on **Ctrl+S** to save the file and it will look like as shown below
 
