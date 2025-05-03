@@ -14,29 +14,64 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
    ![](../images/b1.png)
 
-1. Click on the **hub-demo** resource to navigate to the Azure AI Hub.
+1. Under the **Create** dropdown, select **Hub**.
 
-   ![](../images/b2.png)
+   ![](../images/ai1.png)
 
-1. Click on **Launch Azure AI Foundry** option.
+1. Provide the following details in the AI Hub window and leave everything else as default.
+   - Resource Group: Select **Foundry** from the dropdown (1)
+   - Name: **Ai-Hub<inject key="Deployment ID	"></inject>**(2)
+   - Click **Review+Create**(3) followed by **Create**
 
-   ![](../images/b3.png)
+    ![](../images/ai2.png)
 
-1. In the window that appears, select **Agents Projects resource** to move to the Azure AI Foundry project.
+1. Once the deployment is complete, click on **Go to Resource**.
 
-   ![](../images/b4.png)
+1. Now, click on **+Create Project** in the window that appears.
+
+   ![](../images/ai3.png)
+
+1. Leave everything as default and give the project name as **AiProject<inject key="Deployment ID	"></inject>** and click on **Review+Create** followed by **Create**
+
+   ![](../images/ai4.png)
+
+1. Once the deployment is ready click on **Go to Resource**
+
+1. From the Azure Ai Project window, click on **Launch Studio** to move to the Azure AI Foundry portal.
+
+   ![](../images/ai5.png)
+
+1. In the window that appears, copy the Project Connection String to a notepad file as you will need it in the further steps.
+
+  ![](../images/ai6.png)
 
 1. From the left navigation pane select **Models + Endpoints** option.
 
    ![](../images/b6.png)
 
-1. Select **+ Deploy Model** drop down and select **Deploy a Base Model**
+1. Select **+ Deploy Model** drop-down and select **Deploy a Base Model**
 
    ![](../images/b7.png)
 
-1. Search for and select **DeepSeek-R1 (1)** model and click on **Confirm (2)**.
+1. Search for and select gpt-4o model and click on **Confirm**
 
-   ![](../images/b9.png)
+   ![](../images/ai7.png)
+
+1. In the window that appears, click on **Deploy**
+
+   ![](../images/ai8.png)
+
+1. Next, lets deploy the text embedding model. Click on **Model and Endpoints** from the left pane. From the Dropdown of the Deploy a model select **Deploy a Base Model**.
+
+1. Search for and select the  **text-embedding-3-large** and click on **Confirm**.
+
+   ![](../images/ai9.png)
+
+1. Click on **Deploy**
+
+1. Click on **Models and Endpoints** and click on **Deploy a model** and select **Deploy a Base Model**. Now, search for and select **DeepSeek-R1 (1)** model and click on **Confirm (2)**.
+
+   ![](../images/ai7.png)
 
 1. In the pop-up that appears, click on **Agree and Proceed**.
 
