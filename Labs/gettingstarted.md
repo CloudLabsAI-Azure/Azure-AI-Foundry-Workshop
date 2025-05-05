@@ -65,7 +65,7 @@ Participants should have:
 
 ### Architecture Diagram
 
-![Explore Lab Resources](../images/Architecture-Diagram.png)
+  ![Explore Lab Resources](../images/Architecture-Diagram.png)
 
 ### Explanation of Components
 
