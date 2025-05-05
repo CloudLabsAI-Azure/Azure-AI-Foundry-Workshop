@@ -154,3 +154,18 @@ In this lab, you’ll explore various tasks using the Azure AI Foundry SDK to cr
 
    ![](../images/ai22.png)
 
+## Review
+
+In this Exercise, you have performed the following:
+
+1. Used the Azure AI Foundry SDK to perform chat completions tailored to health and fitness applications.
+
+2. Generated text and image embeddings from health-related content to support enhanced AI interactions.
+
+3. Built a basic Retrieval-Augmented Generation (RAG) pipeline to retrieve health tips and generate answers using an LLM.
+
+4. Configured and tested the Phi-4 model for contextual responses.
+
+5. Integrated the DeepSeek-R1 model using inference endpoints and evaluated its performance on general and technical query.
+
+## Click Next to proceed with the next Exercise
