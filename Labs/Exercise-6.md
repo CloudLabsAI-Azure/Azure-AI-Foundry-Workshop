@@ -171,3 +171,19 @@ In this lab, you will build an AI-driven fitness assistant by integrating Azure 
 1. When the cell executes successfully, output will be expected as below.
 
     ![](../images/ex6-task2-9.png)
+
+## Review
+
+In this exercise, you performed the following:
+
+1. Created an AI-driven fitness assistant by integrating Azure AI Search with Semantic Kernel for interactive and intelligent health queries.
+
+2. Indexed fitness-related data and connected it to a Semantic Kernel Agent to enable dynamic and context-aware search responses.
+
+3. Enabled asynchronous, multi-turn conversations through AI agents capable of retrieving structured health data using RAG techniques.
+
+4. Implemented a multi-agent Retrieval-Augmented Generation (RAG) pipeline to enhance reasoning and response quality for complex fitness-related queries.
+
+5. Utilized GitHub authentication and configured a secure environment to support multi-agent orchestration in a seamless, interactive AI experience.
+
+## Congratulations you have successfully completed the Lab!
