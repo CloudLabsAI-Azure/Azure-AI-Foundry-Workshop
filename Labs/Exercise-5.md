@@ -142,6 +142,14 @@ In this lab, you will integrate observability and tracing mechanisms to monitor 
 
     ![](../images/ex5-task1-32.png)
 
-### Task 2: Health & Fitness Evaluations with Azure AI Foundry 
+## Review
+ 
+In this exercise, you performed the following:
 
-### Task 3: End to End GenAI Ops Workshop
+ 1. Integrated observability into AI agents using Azure AI Foundry SDK and OpenTelemetry to trace and monitor interactions effectively.
+
+ 2. Executed step-by-step tracing workflows in VS Code notebooks to visualize and verify agent performance via Azure Monitor.
+
+3. Configured tracing sessions in the Azure AI Foundry portal to capture detailed insights on agent behavior and requests.
+
+## Click Next to proceed further
