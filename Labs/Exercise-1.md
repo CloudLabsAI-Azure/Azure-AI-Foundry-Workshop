@@ -231,7 +231,7 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 In this Exercise, you have performed the following:
 
-1. Set up key Azure AI resources including AI Foundry Hub and Project.
+1. Set up key Azure AI resources.
 
 2. Deployed AI models
 
