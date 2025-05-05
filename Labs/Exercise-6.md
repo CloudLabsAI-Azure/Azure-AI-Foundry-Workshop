@@ -78,7 +78,7 @@ In this lab, you will build an AI-driven fitness assistant by integrating Azure 
 
 1. In the LABVM desktop, double click **Microsoft Edge** browser to open it.
 
-    ![](../images/)
+    ![](../images/open-edgebrowser.png)
 
 1. Navigate to GitHub login page using the provided URL below:
 
