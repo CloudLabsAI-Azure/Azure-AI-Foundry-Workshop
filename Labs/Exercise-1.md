@@ -226,3 +226,19 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
    ![](../images/dnd2.png)
 
 1. Once you have updated the .env file variables, kindly close and reopen the Visual Studio Code.
+
+## Review
+
+In this Exercise, you have performed the following:
+
+1. Set up key Azure AI resources including AI Foundry Hub and Project.
+
+2. Deployed AI models
+
+3. Configured connections to Azure AI Search and Bing Search.
+
+4. Prepared a Python development environment in Visual Studio Code.
+
+5. Added essential environment variables for authentication and access.
+
+Click  **Next** to proceed with the next exercise.
