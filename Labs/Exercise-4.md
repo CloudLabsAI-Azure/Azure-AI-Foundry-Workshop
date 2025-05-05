@@ -322,4 +322,3 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task5-19.png)
 
-### Task 6: Fitness Fun: Azure Functions + AI Agent
