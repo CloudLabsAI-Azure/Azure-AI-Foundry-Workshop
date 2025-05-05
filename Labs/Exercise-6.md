@@ -76,13 +76,53 @@ In this lab, you will build an AI-driven fitness assistant by integrating Azure 
 
 ### Task 2: Multi-Agent RAG for Fitness & Health with Azure AI Foundry
 
-1. From the left pane in the Visual Studio Code window, click on the dropdown next to **2-notebooks** (1), then click on the dropdown next to **4-frameworks** (2) and select **2-autogen-multi-agent-rag.ipynb** (3) file.
+1. In the LABVM desktop, double click **Microsoft Edge** browser to open it.
 
-    ![](../images/ex6-task2-1.png)
+    ![](../images/)
 
-1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
+1. Navigate to GitHub login page using the provided URL below:
 
-    ![](../images/ai2.png)
+    ```
+    https://github.com/login
+    ```
+
+1. Navigate to the **Environment** (1) tab. Once you are in the Environment tab click on the **Github Licenses** (2) option to get GitHub user credentials
+
+    ![](../images/new-githubcopilot-apr-27.png)
+
+1. In the sign-in to GitHub page in the Edge browser, enter the **GitHub UserEmail** (1) and **GitHub Password** (2) and click on **Sign in** (3).
+
+    ![](../images/github-login.png)
+
+1. Next, to get the authentication code, sign in to Outlook through opening a new tab with the **GitHub** credentials that were copied over to Notepad in the previous step. After logging into Outlook, locate the most recent email that contains the verification code, and then select **Verify** to return to the login screen.
+
+    ```
+    https://outlook.office365.com/mail/
+    ```
+
+    >**Note:** Make sure to log in to Outlook using the GitHub credentials provided to you from the environment details page of your lab.
+
+    >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
+
+    ![](../images/authgit.png)
+
+    > **Note:** Please do not enable Two-Factor Authentication (2FA) after logging into GitHub for this lab. To avoid complications, use GitHub user accounts as outlined in the lab instructions. This will help prevent any issues related to 2FA validation during the exercise.
+
+1. To create a GitHub PAT token, go to your profile on top of the right hand, and then select **Settings**.
+
+    ![](../images/profilesetting.png)
+
+1. Go to **Developer settings** from the left Navigation pane -> **Personal access tokens** (1) -> **Tokens (classic)** (2), and then click on **Generate new token** (3) and select **Generate new token (classic)** (4).
+
+    ![](../images/token1.png)
+
+1. Give your secret a name **Secret01** (1) under Note field and set the **Expiration** to **Custom** (2) and select the **next calendar day** (3). By default, no permissions are granted, so scroll to the bottom and click on **Generate token**. 
+
+    ![](../images/sec10.png)
+
+1. Once you've generated the token, click the **Copy** icon to the right of the secret value.
+
+    ![](../images/token.png)
 
 1. Navigate to **.env** file from the left pane.
 
@@ -91,6 +131,14 @@ In this lab, you will build an AI-driven fitness assistant by integrating Azure 
 1. Paste the Personal Access Token (PAT) with variable name `GITHUB_TOKEN` in **.env** file.
 
     ![](../images/ex6-task2-2(1).png)
+
+1. From the left pane in the Visual Studio Code window, click on the dropdown next to **2-notebooks** (1), then click on the dropdown next to **4-frameworks** (2) and select **2-autogen-multi-agent-rag.ipynb** (3) file.
+
+    ![](../images/ex6-task2-1.png)
+
+1. In the top left corner of the Visual Studio Code Window, select the dropdown under **Select Kernel (1)** option and choose **.venv(Python 3.12.1)** (2) and select the same in the option that appears under the search bar.
+
+    ![](../images/ai2.png)
 
 1. Click on the **Execute cell** button. 
 
