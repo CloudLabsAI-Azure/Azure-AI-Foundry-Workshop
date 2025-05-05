@@ -229,16 +229,16 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
 ## Review
 
-In this Exercise, you have performed the following:
+In this exercise, you have performed the following:
 
-1. Set up key Azure AI resources.
+1. Set up key **Azure AI** resources.
 
 2. Deployed AI models
 
 3. Configured connections to Azure AI Search and Bing Search.
 
-4. Prepared a Python development environment in Visual Studio Code.
+4. Prepared a **Python development** environment in Visual Studio Code.
 
 5. Added essential environment variables for authentication and access.
 
-Click  **Next** to proceed with the next exercise.
+## Click  **Next** to proceed further
