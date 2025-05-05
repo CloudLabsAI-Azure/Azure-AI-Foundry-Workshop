@@ -165,3 +165,21 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
     ![](../images/step-42.png)
 
     >**Note:** The pictorial representation might vary.
+
+## Review
+
+In this Exercise, you have performed the following:
+
+1. Authenticated Azure credentials using Azure CLI within a Jupyter notebook.
+
+2. Configured the AI Project Client and verified environment setup.
+
+3. Validated connections to essential services like Azure AI Search and Azure OpenAI.
+
+4. Initialized a new AI project and explored available models.
+
+5. Executed a basic chat completion request and tested model interaction.
+
+6. Created a conversation thread with an AI agent that generated visual output.
+
+Click **Next** to proceed with the next Exercise.
