@@ -322,3 +322,18 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
     ![](../images/ex4-task5-19.png)
 
+## Review
+
+In this exercise, you have performed the following:
+
+1. Created a health and fitness assistant agent using the Azure AI Foundry SDK, capable of handling user queries with disclaimers and guidance.
+
+2. Built a Health Calculator Agent using a code interpreter for BMI calculations and CSV-based nutrition analysis, including visual outputs.
+
+3. Developed a File Search Agent that utilized vector search on markdown documents to answer user queries based on local health content.
+
+4. Integrated Bing Grounding for real-time web information access in agent responses.
+
+5. Combined Azure AI Search with agents to retrieve fitness data from a search index and deliver responses via a chat interface.
+
+## Click Next to proceed further
