@@ -1,14 +1,22 @@
 # Exercise 2: Introduction to Azure AI Foundry Workshop 
 
-This lab introduces participants to the core functionalities of Azure AI Foundry, covering authentication, environment configuration, and project initialization. It lays the groundwork for utilizing AI models and developing AI-driven applications.
+## Estimated Time: 40 minutes
 
-### Lab Overview
+## Lab Overview
 
 In this lab, you will authenticate credentials using Azure CLI, configure the AI Project Client, and validate model and search connections. You will also get hands-on experience with initializing AI projects, listing available models, and making your first chat completion request. By the end of this lab, you will have a functional AI workspace and a clear understanding of how to begin AI solution development using Azure AI Foundry.
 
-### Estimated Time: 40 minutes
+## Lab Objectives
+
+In this lab, you will complete the following tasks:
+
+- Task 1: Authenticate your Credentials
+- Task 2: Configuring the Environment
+- Task 3: Quick Start to the Workshop
 
 ### Task 1: Authenticate your Credentials 
+
+In this task, you will authenticate your Azure credentials and verify access using a Jupyter notebook in Visual Studio Code.
 
 1. In the Visual Studio code window, in the left **explorer** panel, click on the dropdown next to **1-introduction (1)** and select **1-authentication.ipynb (2)** file.
 
@@ -63,6 +71,8 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
     ![](../images/step-13.png)
 
 ### Task 2: Configuring the Environment
+
+In this task, you will configure the environment by installing dependencies, initializing the project, and validating Azure service connections using a Jupyter notebook.
 
 1. In the left **explorer** panel, click on the dropdown next to **1-introduction (1)** and select **2-environment_setup.ipynb (2)** file.
 
@@ -120,6 +130,8 @@ In this lab, you will authenticate credentials using Azure CLI, configure the AI
     ![](../images/step-29.png)
 
 ### Task 3: Quick Start to the Workshop
+
+In this task, you will run a quick-start notebook to test model completion, create an AI agent, and generate a visual output using Azure AI Foundry.
 
 1. In the left **explorer** panel, click on the dropdown next to **1-introduction (1)** and select **3-quick_start.ipynb (2)** file.
 
@@ -182,4 +194,4 @@ In this exercise, you have performed the following:
 
 6. Created a conversation thread with an **AI agent** that generated visual output.
 
-## Click **Next** to proceed further
+## You have successfully completed this exercise. Kindly click Next to proceed further
