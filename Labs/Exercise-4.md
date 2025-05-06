@@ -1,14 +1,24 @@
 # Exercise 4: Agent Development 
 
-This lab focuses on building AI agents using the Azure AI Foundry SDK, enabling them to perform specialized tasks such as health coaching, nutrition analysis, and intelligent search. By leveraging agentic AI principles, participants will create autonomous AI systems capable of reasoning, decision-making, and interacting with external tools to enhance their capabilities.
+## Estimated Time: 40 minutes
 
-### Lab Overview
+## Lab Overview
 
 In this lab, you will develop AI agents tailored for health and fitness applications. You will begin by creating a wellness assistant capable of providing fitness and nutrition guidance. Then, you'll extend its functionality by incorporating tools like a code interpreter for BMI calculations, a file search agent for retrieving health resources, and a Bing Grounding tool for real-time web-based insights. Additionally, you’ll integrate Azure AI Search for enhanced data retrieval and explore the interaction between AI agents and Azure Functions for event-driven automation. By completing this lab, you will gain hands-on experience in building and enhancing AI agents with multi-agent collaboration, real-world reasoning, and dynamic task execution.
 
-### Estimated Time: 40 minutes
+## Lab Objectives
+
+In this lab, you will complete the following tasks:
+
+- Task 1: Azure AI Foundry SDKs to create a playful health and fitness assistant
+- Task 2: Health Calculator Agent
+- Task 3: Health Resource Search Agent
+- Task 4: Health & Fitness Agent with Bing Grounding
+- Task 5: AI Search + Agent Service: Fitness-Fun Example
 
 ### Task 1: Azure AI Foundry SDKs to create a playful health and fitness assistant
+
+In this task, you will use the Azure AI Foundry SDK to create, test, and delete a conversational health and fitness agent that responds to typical user queries with friendly, informative replies.
 
 1. From the left pane in the Visual Studio Code window, click on the dropdown next to **2-notebooks** (1), then click on the dropdown next to **2-agent_service** (2) and select **1-basics.ipynb** (3) file.
 
@@ -63,6 +73,8 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
     ![](../images/ex4-task1-12.png)
 
 ### Task 2: Health Calculator Agent
+
+In this task, you will configure and test a health calculator agent by setting up the environment, initializing the client, creating a CSV file, and running queries to calculate BMI and analyze nutrition data.
 
 1. Click on the **2-code_interpreter.ipynb** link to proceed with the next notebook.
 
@@ -124,6 +136,8 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
 
 ### Task 3: Health Resource Search Agent
+
+In this task, you will configure and test a health resource search agent by setting up the environment, initializing the client, creating markdown files, and performing searches using vector stores.
 
 1. Click on the **3-file-search.ipynb** link to proceed with the next notebook.
 
@@ -191,6 +205,8 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
 ### Task 4: Health & Fitness Agent with Bing Grounding
 
+In this task, you will configure and test a Health & Fitness Agent by grounding the agent with Bing. You'll load the environment, create the agent, and perform queries using multiple conversation threads.
+
 1. Click on the **4-bing_grounding.ipynb** link to proceed with the next notebook.
 
     ![](../images/ex4-task4-1.png)
@@ -241,6 +257,8 @@ In this lab, you will develop AI agents tailored for health and fitness applicat
 
 
 ### Task 5: AI Search + Agent Service: Fitness-Fun Example
+
+In this task, you will configure and test an agent integrated with Azure AI Search. You'll create a search index, add documents, and build a fitness-related search agent that interacts with the index.
 
 1. Click on the **5-agents-aisearch.ipynb** link to proceed with the next notebook.
 
@@ -336,4 +354,4 @@ In this exercise, you have performed the following:
 
 5. Combined **Azure AI Search with agents** to retrieve fitness data from a search index and deliver responses via a chat interface.
 
-## Click Next to proceed further
+## You have successfully completed the exercise.Kindly click Next to proceed further
