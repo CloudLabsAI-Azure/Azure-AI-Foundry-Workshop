@@ -1,14 +1,21 @@
 # Exercise 6: Fitness-Fun Workshop 
 
-This lab explores the integration of AI agents with Azure AI Search and Semantic Kernel to create interactive and intelligent health and fitness solutions. By leveraging multi-agent collaboration and retrieval-augmented generation (RAG), participants will develop AI-powered applications capable of searching, reasoning, and responding to complex queries in the fitness domain.
+## Estimated Time: 40 minutes
 
-### Lab Overview
+## Lab Overview
 
 In this lab, you will build an AI-driven fitness assistant by integrating Azure AI Search with a Semantic Kernel Agent. You will upload and index fitness-related data, create an agent to interact with this data, and enable asynchronous conversations for dynamic queries. Additionally, you will implement a multi-agent RAG pipeline to enhance AI responses with structured health data retrieval. By the end of this lab, you will have a robust understanding of AI-driven search, multi-agent collaboration, and advanced reasoning techniques for health and fitness applications.
 
-### Estimated Time: 40 minutes
+## Lab Objectives
 
+In this lab, you will complete the following tasks:
+
+- Task 1: Azure AI Search + Semantic Kernel + AI Agents
+- Task 2: Multi-Agent RAG for Fitness & Health with Azure AI Foundry
+  
 ### Task 1: Azure AI Search + Semantic Kernel + AI Agents
+
+In this task, you will be integrating Azure AI Search with Semantic Kernel to create AI agents that can perform search and provide results.
 
 1. From the left pane in the Visual Studio Code window, click on the dropdown next to **2-notebooks** (1), then click on the dropdown next to **4-frameworks** (2) and select **1-rag-sk-agents-aisearch.ipynb** (3) file.
 
@@ -75,6 +82,8 @@ In this lab, you will build an AI-driven fitness assistant by integrating Azure 
     ![](../images/ex6-task1-15.png)
 
 ### Task 2: Multi-Agent RAG for Fitness & Health with Azure AI Foundry
+
+In this task, you will configure and execute a multi-agent system for fitness and health using Azure AI Foundry
 
 1. In the LABVM desktop, double click **Microsoft Edge** browser to open it.
 
