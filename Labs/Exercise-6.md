@@ -4,7 +4,7 @@
 
 ## Lab Overview
 
-In this lab, you will build an AI-driven fitness assistant by integrating Azure AI Search with a Semantic Kernel Agent. You will upload and index fitness-related data, create an agent to interact with this data, and enable asynchronous conversations for dynamic queries. Additionally, you will implement a multi-agent RAG pipeline to enhance AI responses with structured health data retrieval. By the end of this lab, you will have a robust understanding of AI-driven search, multi-agent collaboration, and advanced reasoning techniques for health and fitness applications.
+In this lab, you will build an AI-driven fitness assistant by integrating Azure AI Search with a Semantic Kernel Agent, and extend its capabilities using Autogen, a framework for orchestrating multi-agent collaboration. You will upload and index fitness-related data, create agents to interact with this data, and enable asynchronous conversations for dynamic queries. In the second part of the lab, you will implement a multi-agent Retrieval-Augmented Generation (RAG) pipeline using Azure AI Foundry and Autogen, enabling more advanced reasoning and task delegation among agents. By the end of this lab, you will have a robust understanding of AI-driven search, multi-agent orchestration, and advanced reasoning techniques tailored for health and fitness applications.
 
 ## Lab Objectives
 
