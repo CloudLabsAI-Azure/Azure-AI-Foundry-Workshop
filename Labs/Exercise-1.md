@@ -49,7 +49,7 @@ In this task, you will deploy models, configure resources, and set up access in 
    - Name: **Ai-Hub<inject key="Deployment ID	"></inject>**(2)
    - Click **Review+Create**(3) followed by **Create**
 
-    ![](../images/ai2x.png)
+     ![](../images/ai2x.png)
 
 1. Once the deployment is complete, click on **Go to Resource**.
 
