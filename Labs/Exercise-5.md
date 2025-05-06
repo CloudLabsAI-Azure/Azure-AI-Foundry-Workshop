@@ -1,14 +1,20 @@
 # Exercise 5: Enhance the Agent 
 
-This lab focuses on enhancing AI agents with observability, evaluation, and governance capabilities using Azure AI Foundry. As AI systems become more complex, it is crucial to monitor their performance, ensure output quality, and implement security and safety measures. Participants will explore techniques to trace AI interactions, evaluate model accuracy, and enforce governance policies for responsible AI development.
+## Estimated Time: 40 minutes
 
-### Lab Overview
+## Lab Overview
 
 In this lab, you will integrate observability and tracing mechanisms to monitor AI agent interactions using OpenTelemetry and Azure Monitor. You will evaluate AI models for quality, safety, and security while running automated assessments for large language model (LLM) outputs. Additionally, you will explore end-to-end GenAI operations, covering model listing, mitigation strategies, and Retrieval-Augmented Generation (RAG) evaluation. By the end of this lab, you will have a deeper understanding of how to optimize AI agents for reliability, transparency, and compliance.
 
-### Estimated Time: 40 minutes
+## Lab Objectives
+
+In this lab, you will complete the following task:
+
+Task 1: Observability & Tracing Demo with azure-ai-projects and azure-ai-inference
 
 ### Task 1: Observability & Tracing Demo with azure-ai-projects and azure-ai-inference
+
+In this task, you will configure and demonstrate observability and tracing features in Azure AI services. You'll interact with the Azure portal, set up tracing, and monitor the execution of AI models.
 
 1. From the left pane in the Visual Studio Code window, click on the dropdown next to **2-notebooks** (1), then click on the dropdown next to **3-quality_attributes** (2) and select **1-Observability.ipynb** (3) file.
 
@@ -152,4 +158,4 @@ In this exercise, you performed the following:
 
 3. Configured tracing sessions in the Azure AI Foundry portal to capture detailed **insights on agent behavior** and requests.
 
-## Click Next to proceed further
+## You have successfully completed the exercise.Kindly Click Next to proceed further
