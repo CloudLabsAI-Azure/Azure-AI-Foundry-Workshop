@@ -43,25 +43,7 @@ Participants should have:
 
 ### Architecture
 
-1. **Authentication, Environment Setup & Agent Creation**: The lab begins with authenticating into Azure services, setting up the development environment in Visual Studio Code, and creating a foundational Health & Fitness Agent using the Azure AI Foundry SDK. This setup is crucial to enable interaction with various AI tools and models throughout the lab.
-
-2. **Chat Completions using Azure AI Foundry SDK**: You will learn how to leverage Azure AI Foundry's capabilities to generate chat completions. This forms the basis for intelligent interactions with the Health & Fitness Agent.
-
-3. **Visualizing Health Data & Demonstrating RAG**: Users prompt the system with health-related queries to visualize insights and see Retrieval-Augmented Generation (RAG) in action. This component demonstrates how contextually enriched answers can be generated from health data.
-
-4. **Exploring Foundation Models (Phi-4 & DeepSeek R1)**: The lab introduces advanced open-source models like Phi-4 and DeepSeek R1, showcasing how they can be utilized for health-based generative AI use cases.
-
-5. **Building BMI & Nutrition AI Agent with Visual Output**: You will create a dedicated agent to perform BMI calculations, analyze nutritional data, and present results using visualizations. This demonstrates how agents can perform end-to-end health analytics.
-
-6. **Health & Fitness Agent with Bing Grounding**: An agent is configured to use Bing grounding, enabling it to access and integrate real-time, web-based information to enhance its responses and recommendations.
-
-7. **Connecting Index to Agent with AzureAISearchTool**: The index created from curated health content is connected to the agent using Azure AI Search Tool, enabling precise, context-aware responses through semantic search capabilities.
-
-8. **Setting Up Observability & Tracing**: Observability features are added to monitor the performance and behavior of the Health Agent. Tracing tools help capture logs and metrics for better debugging and transparency.
-
-9. **Creating a Semantic Kernel Agent using Azure AI Search**: You will build a Semantic Kernel Agent, capable of understanding user intent and retrieving accurate information by querying the Azure AI Search index, enhancing the agent's intelligence.
-
-10. **Building Personalized Multi-Agent RAG with Heart Rate Analysis**: The final stage brings together multiple AutoGen agents in a RAG pipeline that performs personalized heart rate analysis. It demonstrates how agents collaborate to process user data and deliver personalized health insights.
+The lab begins with authentication into Azure services, environment setup in Visual Studio Code, and creation of a foundational Health & Fitness Agent using the Azure AI Foundry SDK. It then covers generating chat completions and visualizing health data while demonstrating Retrieval-Augmented Generation (RAG). Open-source models like Phi-4 and DeepSeek R1 are explored for health-related generative AI tasks. A BMI and nutrition analysis agent is built with visual output, and Bing grounding is added for real-time web information. The agent is connected to a health content index via Azure AI Search Tool for semantic search. Observability and tracing are set up for monitoring and debugging. A Semantic Kernel Agent is developed to enhance understanding of user intent, and the lab concludes with a personalized multi-agent RAG pipeline for heart rate analysis, showcasing collaborative AI-driven health insights.
 
 ### Architecture Diagram
 
@@ -80,6 +62,14 @@ Participants should have:
 5. A**zure AI Search & AzureAISearchTool**: Provides powerful vector search capabilities, allowing agents to retrieve semantically relevant data from indexed documents.
 
 6. **Bing Search (via Grounding)**: Used to enrich agent responses with real-time web search results, grounded using Bing’s capabilities for up-to-date health information.
+
+7. **Azure Monitor & Application Insights**: Provides observability into agent performance, logs, metrics, and traces, helping diagnose issues and improve the reliability of AI-driven health insights.
+
+8. **Semantic Kernel**: A framework used to build and run intelligent agents that understand user intent and orchestrate skills like search, summarization, and data retrieval from Azure AI Search.
+
+9. **Jupyter Notebooks**: Interactive notebooks used within Visual Studio Code to experiment, visualize outputs, and configure agent workflows during development.
+
+10. **Azure Key Vault**: Manages secrets, API keys, and connection strings securely, ensuring safe integration between agents and external services like Bing or Azure Search.
 
 # Getting Started with the Lab
  
