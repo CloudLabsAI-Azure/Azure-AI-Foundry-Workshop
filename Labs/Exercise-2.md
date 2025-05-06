@@ -1,4 +1,4 @@
-# Exercise 2: Introduction to Azure AI Foundry Workshop 
+# Exercise 2: Set Up Your AI Project Environment
 
 ## Estimated Time: 40 minutes
 
