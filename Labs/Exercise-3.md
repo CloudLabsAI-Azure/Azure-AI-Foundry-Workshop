@@ -1,14 +1,24 @@
 # Exercise 3: Chat Completion & Retrieval-Augmented Generation (RAG)
 
-This lab focuses on using chat completions and retrieval-augmented generation (RAG) with the Azure AI Foundry SDK to develop and enhance health and fitness applications.
+## Estimated Time: 45 minutes
 
-### Lab Overview
+## Lab Overview
 
 In this lab, you’ll explore various tasks using the Azure AI Foundry SDK to create innovative health and fitness applications. You'll work with advanced AI tools like chat completions, embeddings, and retrieval-augmented generation (RAG) to enhance your projects. These tasks will involve embedding health-themed text and images, interacting with AI models, and utilizing Azure's powerful search and reasoning capabilities.
 
-### Estimated Time: 45 minutes
+## Lab Objectives
+
+In this lab, you will complete the following tasks:
+
+- Task 1: Chat Completions using the Azure AI Foundry SDK
+- Task 2: Health & Fitness embeddings
+- Task 3: Retrieval-Augmented Generation (RAG) with AI Project Client
+- Task 4: Phi-4 Model with AI Project Client
+- Task 5: DeepSeek-R1 Model with Azure AI Inference 
 
 ### Task 1: Chat Completions using the Azure AI Foundry SDK
+
+In this task, you will use the Azure AI Foundry SDK to configure a chat completion client, define a prompt, and generate responses from a fitness assistant model.
 
 1. From the left pane in the Visual Studio Code window, click on the dropdown next to **2-notebooks** (1), then click on the dropdown next to **1-chat_completion** (2) and select **basic-chat-completion.ipynb** (3) file.
 
@@ -38,6 +48,8 @@ In this lab, you’ll explore various tasks using the Azure AI Foundry SDK to cr
 
 ### Task 2: Health & Fitness embeddings
 
+In this task, you will generate text and image embeddings using Azure AI Foundry and apply prompt templates to enhance health-related contextual understanding.
+
 1. Click on the **2-embeddings.ipynb** link to proceed with the next notebook.
 
    ![](../images/ai7.png)
@@ -62,6 +74,8 @@ In this lab, you’ll explore various tasks using the Azure AI Foundry SDK to cr
 
 ### Task 3: Retrieval-Augmented Generation (RAG) with AI Project Client
 
+In this task, you will implement a basic Retrieval-Augmented Generation (RAG) workflow by embedding health tips, indexing them, and querying with an LLM to generate context-aware responses.
+
 1. From the left navigation pane in the Visual Studio Code window, select **3-basic-rag.ipynb** file.
 
    ![](../images/ai10-1.png)
@@ -73,6 +87,8 @@ In this lab, you’ll explore various tasks using the Azure AI Foundry SDK to cr
    ![](../images/ai11.png)
 
 ### Task 4: Phi-4 Model with AI Project Client 
+
+In this task, you will configure the Phi-4 model in the .env file and run a notebook to explore its output using the AI Project Client.
 
 1. Let's explore the Phi-4 model by clicking on the  link which directs to the Phi-4 notebook.
 
@@ -93,6 +109,8 @@ In this lab, you’ll explore various tasks using the Azure AI Foundry SDK to cr
    ![](../images/ai15.png)
 
 ### Task 5: DeepSeek-R1 Model with Azure AI Inference 
+
+In this task, you will configure and test the DeepSeek-R1 model by setting environment variables, initializing the client, and running sample queries in a Jupyter notebook.
 
 1. From the left navigation pane in the Visual Studio Code window, select **5-deep-seek-r1.ipynb** file.
 
@@ -168,4 +186,4 @@ In this exercise, you have performed the following:
 
 5. Integrated the **DeepSeek-R1 model** using inference endpoints and evaluated its performance on general and technical queries.
 
-## Click Next to proceed further
+## You have successfully completed the exercise. Kindly click Next to proceed further.
