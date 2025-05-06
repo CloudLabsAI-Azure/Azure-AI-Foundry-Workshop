@@ -1,14 +1,22 @@
 # Exercise 1: Set Up the Environment
 
-This lab focuses on setting up the foundational environment for developing AI applications using the Azure AI Foundry SDK. Participants will establish their development workspace, configure necessary connections, and authenticate credentials to ensure seamless integration with Azure AI services.
+## Estimated Time: 40 minutes
 
-### Lab Overview
+## Lab Overview
 
 In this lab, you will set up the AI Foundry environment and configuring a Python-based development environment. You'll deploy essential connections and verify access to models, ensuring smooth execution of AI workflows. By completing this setup, you will be prepared to leverage Azure AI Foundry for building advanced AI solutions.
 
-## Estimated Time: 40 minutes
+## Lab Objectives
 
-## Task 1: Environment Setup in the Azure Portal
+In this lab, you will complete the following tasks:
+
+- Task 1: Environment Setup in the Azure Portal
+- Task 2: Environment Setup in Visual Studio Code
+- Task 3: Update the Environment Variables
+
+### Task 1: Environment Setup in the Azure Portal
+
+In this task, you will deploy models, configure resources, and set up access in Azure AI Foundry.
 
 1. In the Azure portal, search for and select Azure AI Search Resource.
 
@@ -149,7 +157,9 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
 
    ![](../images/ex1-add-dev-role.png)
 
-## Task 2: Environment Setup in Visual Studio Code
+### Task 2: Environment Setup in Visual Studio Code
+
+In this task, you will set up Visual Studio Code with a virtual environment and install required packages.
 
 1. Minimize your browser window and from the Lab VM select **Visual Studio Code**.
 
@@ -201,7 +211,9 @@ In this lab, you will set up the AI Foundry environment and configuring a Python
    uv pip install -r requirements.txt --prerelease=allow
     ```
 
-## Task 3: Update the Environment Variables
+### Task 3: Update the Environment Variables
+
+In this task, you will configure the .env file with project credentials and restart Visual Studio Code to apply the settings.
 
 1. From the VM's desktop, open the **Azure Creds** file.
 
@@ -241,4 +253,4 @@ In this exercise, you have performed the following:
 
 5. Added essential environment variables for authentication and access.
 
-## Click  **Next** to proceed further
+## You have successfully completed this exercise. Kindly click  Next to proceed further
