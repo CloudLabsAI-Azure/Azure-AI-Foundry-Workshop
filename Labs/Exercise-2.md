@@ -1,4 +1,4 @@
-# Exercise 2: Set Up Your AI Project Environment
+# Exercise 2: Build & Connect: AI Project Initialization with Azure Tools
 
 ## Estimated Time: 40 minutes
 
