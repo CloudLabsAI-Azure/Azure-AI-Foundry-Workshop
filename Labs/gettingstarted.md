@@ -1,6 +1,7 @@
 # Getting Started with Your Azure-AI-Agents Workshop
 ### Overall Estimated Duration: 6 Hours
-### Overview
+
+## Overview
 
 The Azure AI Foundry Workshop is designed to help participants transition from traditional AI models to goal-driven AI solutions. Through hands-on exercises, participants will learn to build intelligent applications that leverage Azure AI Foundry SDK, advanced AI agents, Retrieval-Augmented Generation (RAG), multimodal capabilities, and AI-powered automation.  
 
@@ -31,7 +32,7 @@ This lab is designed to provide participants with hands-on experience in develop
   Develop AI-native, event-driven architectures that integrate AI agents with Azure Functions. Participants will create automated workflows where AI agents respond to real-time events, showcasing AI's ability to drive intelligent automation.  
 
 
-### Prerequisites
+## Prerequisites
 
 Participants should have:  
 
@@ -41,15 +42,15 @@ Participants should have:
 - **AI Model & Data Processing Skills:** Understanding of chat completions, embedding models, retrieval-augmented generation (RAG), multimodal reasoning, and prompt engineering.  
 - **Multi-Agent AI & Automation Concepts:** Awareness of AI agent architectures, event-driven workflows, AI observability, and governance to manage intelligent AI applications effectively.  
 
-### Architecture
+## Architecture
 
 The lab begins with authentication into Azure services, environment setup in Visual Studio Code, and creation of a foundational Health & Fitness Agent using the Azure AI Foundry SDK. It then covers generating chat completions and visualizing health data while demonstrating Retrieval-Augmented Generation (RAG). Open-source models like Phi-4 and DeepSeek R1 are explored for health-related generative AI tasks. A BMI and nutrition analysis agent is built with visual output, and Bing grounding is added for real-time web information. The agent is connected to a health content index via Azure AI Search Tool for semantic search. Observability and tracing are set up for monitoring and debugging. A Semantic Kernel Agent is developed to enhance understanding of user intent, and the lab concludes with a personalized multi-agent RAG pipeline for heart rate analysis, showcasing collaborative AI-driven health insights.
 
-### Architecture Diagram
+## Architecture Diagram
 
   ![Explore Lab Resources](../images/Architecture-Diagram.png)
 
-### Explanation of Components
+## Explanation of Components
 
 1. **Azure AI Foundry SDK**: Used for building and deploying AI agents with support for chat completions, agent orchestration, and integration with various Azure services.
 
