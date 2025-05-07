@@ -153,7 +153,9 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    ![](images/mfa1.png)
 
 1. On **Start by getting the app** page, click on **Next**.
+
 1. Click on **Next** twice.
+
 1. In **android**, go to the play store and Search for **Microsoft Authenticator** and Tap on **Install**.
 
    ![Install](images/mfa2.png)
