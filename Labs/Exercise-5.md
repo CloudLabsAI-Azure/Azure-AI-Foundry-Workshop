@@ -158,4 +158,4 @@ In this exercise, you performed the following:
 
 3. Configured tracing sessions in the Azure AI Foundry portal to capture detailed **insights on agent behavior** and requests.
 
-## You have successfully completed the exercise.Kindly Click Next to proceed further
+## You have successfully completed the exercise.Kindly click Next to proceed further
