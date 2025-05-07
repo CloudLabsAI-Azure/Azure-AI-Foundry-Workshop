@@ -146,11 +146,11 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 ## Steps to Proceed with MFA Setup if "Ask Later" Option is Not Visible
 
-1. If you see the pop-up **Stay Signed in?**, click **No**.
+1. If you see the pop-up **Stay-Signed in?**, click **No**.
 
 1. If **Action required** pop-up window appears, click on **Next**.
    
-   ![](images/mfa1.png)
+   ![](../images/mfa1.png)
 
 1. On **Start by getting the app** page, click on **Next**.
 
@@ -158,7 +158,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 1. In **android**, go to the play store and Search for **Microsoft Authenticator** and Tap on **Install**.
 
-   ![Install](images/mfa2.png)
+   ![Install](../images/mfa2.png)
 
    > Note: For Ios, Open the app store and repeat the steps.
 
@@ -168,13 +168,13 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 1. Scan the QR code visible on the screen **(1)** and click on **Next (2)**.
 
-   ![QR code](images/mfa3.png)
+   ![QR code](../images/mfa3.png)
 
 1. Enter the digit displayed on the Screen in the Authenticator app on mobile and tap on **Yes**.
 
 1. Once the notification is approved, click on **Next**.
 
-   ![Approved](images/mfa4.png)
+   ![Approved](../images/mfa4.png)
 
 1. Click on **Done**.
 
