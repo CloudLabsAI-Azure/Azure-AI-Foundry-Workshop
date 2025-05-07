@@ -1,4 +1,5 @@
-# Getting Started with Your Azure-AI-Agents Workshop
+# Getting Started with Building Goal-Oriented AI Agents with Azure AI Foundry
+
 ### Overall Estimated Duration: 4 Hours
 
 ## Overview
