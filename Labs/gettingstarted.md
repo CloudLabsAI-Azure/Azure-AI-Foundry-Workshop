@@ -1,5 +1,5 @@
 # Getting Started with Your Azure-AI-Agents Workshop
-### Overall Estimated Duration: 6 Hours
+### Overall Estimated Duration: 4 Hours
 
 ## Overview
 
