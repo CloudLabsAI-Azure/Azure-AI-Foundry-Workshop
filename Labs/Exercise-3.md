@@ -1,6 +1,6 @@
 # Exercise 3: Chat Completion & Retrieval-Augmented Generation (RAG)
 
-## Estimated Time: 45 minutes
+## Estimated Time: 40 minutes
 
 ## Lab Overview
 
