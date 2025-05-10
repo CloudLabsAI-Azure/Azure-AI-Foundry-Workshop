@@ -1,4 +1,4 @@
-# Getting Started with Building Goal-Oriented AI Agents with Azure AI Foundry
+# Getting Started with Hands-on with Azure AI Foundry and Agent frameworks
 
 ### Overall Estimated Duration: 4 Hours
 
