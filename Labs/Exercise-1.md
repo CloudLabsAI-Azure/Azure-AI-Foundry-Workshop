@@ -85,7 +85,7 @@ In this task, you will deploy models, configure resources, and set up access in 
 
 1. Click on **Customize**.
 
-  ![](../images/gfd2.png)
+   ![](../images/gfd2.png)
 
 1. In the window that appears, reduce the token to **50 K** (1) and click on **Deploy** (2)
 
