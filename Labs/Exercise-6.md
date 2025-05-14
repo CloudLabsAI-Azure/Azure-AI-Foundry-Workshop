@@ -195,4 +195,10 @@ In this exercise, you performed the following:
 
 5. Utilized GitHub authentication and configured a secure environment to support **multi-agent orchestration** in a seamless, interactive AI experience.
 
-## Congratulations you have successfully completed the Lab!
+  <validation step="4e89ad04-e353-48b7-871d-9a3429f4dae8" />
+ 
+  > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
+  > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next  task. 
+  > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+  > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help
+
