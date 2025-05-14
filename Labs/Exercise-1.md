@@ -83,9 +83,13 @@ In this task, you will deploy models, configure resources, and set up access in 
 
    ![](../images/ai7x.png)
 
-1. In the window that appears, click on **Deploy**
+1. Click on **Customize**.
 
-   ![](../images/ai8x.png)
+  ![](../images/gfd2.png)
+
+1. In the window that appears, reduce the token to **50 K** (1) and click on **Deploy** (2)
+
+   ![](../images/gfd1.png)
 
 1. Next, lets deploy the text embedding model. Click on **Model and Endpoints** from the left pane. From the Dropdown of the Deploy a model select **Deploy a Base Model**.
 
@@ -93,7 +97,13 @@ In this task, you will deploy models, configure resources, and set up access in 
 
    ![](../images/ai9x.png)
 
-1. Click on **Deploy**
+1. Click on **Customize**.
+
+   ![](../images/gfd3.png)
+
+1. In the window that appears, reduce the token to **52 K** (1) and click on **Deploy** (2)
+
+   ![](../images/gfd4.png)
 
 1. Click on **Models and Endpoints** and click on **Deploy a model** and select **Deploy a Base Model**. Now, search for and select **DeepSeek-R1 (1)** model and click on **Confirm (2)**.
 
